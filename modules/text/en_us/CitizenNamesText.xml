@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--VIKING-->
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_1">
+			<Text>Arne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_2">
+			<Text>Birger</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_3">
+			<Text>Bo</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_4">
+			<Text>Erik</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_5">
+			<Text>Frode</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_6">
+			<Text>Gorm</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_7">
+			<Text>Halfdan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_8">
+			<Text>Harald</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_9">
+			<Text>Knud</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_MALE_10">
+			<Text>Kåre</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_1">
+			<Text>Astrid</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_2">
+			<Text>Bodil</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_3">
+			<Text>Frida</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_4">
+			<Text>Gertrud</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_5">
+			<Text>Inga</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_6">
+			<Text>Estrid</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_7">
+			<Text>Hilda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_8">
+			<Text>Gudrun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_9">
+			<Text>Gunhild</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VIKING_FEMALE_10">
+			<Text>Helga</Text>
+		</Row>
+	</EnglishText>
+</Database>

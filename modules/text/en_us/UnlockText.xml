@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VIKING_DESCRIPTION">
+			<Text>Play as the [B]Vikings[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_NAVAL_UNITS_DESCRIPTION">
+			<Text>Have three [B]Naval units[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_NAVAL_UNITS_VIKING_TOOLTIP">
+			<Text>[B]Naval units[/B] were an important part of the [B]Viking[/B] identity.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_VIKING_UNITS_VIKING_NARRATIVE">
+			<Text>{1_Civilization_Adj} Naval spread terror among their rivals. Even the hint of an approaching navy is enough to make mayors and viceroys weak. With its rise, a new line of experts in conquest arise, seeking to make their voices heard.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_NAVAL_UNITS_VIKING_UNLOCK">
+			<Text>You have unlocked the Vikings by having 3 Naval units.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

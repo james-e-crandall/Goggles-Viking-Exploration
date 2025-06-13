@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+	<!-- Compatablity with ynamp "Greatest Earth Map" start position -->
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+
+	<StartPosition>
+		<!-- Civ7 -->
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_VIKING"			X="47"	Y="58" />
+    </StartPosition>
+
+
+</Database>

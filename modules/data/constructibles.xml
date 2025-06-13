@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>  
+	<Types>
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_STAVE_CHURCH" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_LONGHOUSE" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="IMPROVEMENT_NAUST" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<AgeGrowthBalances>
+	</AgeGrowthBalances>
+	<Constructibles>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" Name="LOC_BUILDING_STAVE_CHURCH_NAME" Description="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Tooltip="LOC_BUILDING_STAVE_CHURCH_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" Name="LOC_BUILDING_LONGHOUSE_NAME" Description="LOC_BUILDING_LONGHOUSE_DESCRIPTION" Tooltip="LOC_BUILDING_LONGHOUSE_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" Name="LOC_IMPROVEMENT_NAUST_NAME" Description="LOC_IMPROVEMENT_NAUST_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_NAUST_TOOLTIP" ConstructibleClass="IMPROVEMENT" RiverPlacement="ANCHORED" Cost="90" Population="1" MilitaryDomain="DOMAIN_SEA" Age="AGE_EXPLORATION"/>
+	</Constructibles>
+	<Buildings>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
+	</Buildings>
+	<Improvements>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_VIKING"/>
+	</Improvements>
+	<Wonders>
+	</Wonders>
+	<TypeTags>
+		<Row Type="BUILDING_STAVE_CHURCH" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_STAVE_CHURCH" Tag="UNIQUE"/>
+		<Row Type="BUILDING_STAVE_CHURCH" Tag="AGELESS"/>
+		<Row Type="BUILDING_LONGHOUSE" Tag="CULTURE"/>
+		<Row Type="BUILDING_LONGHOUSE" Tag="UNIQUE"/>
+		<Row Type="BUILDING_LONGHOUSE" Tag="AGELESS"/>
+		<Row Type="IMPROVEMENT_NAUST" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_NAUST" Tag="AGELESS"/>
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH"  DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE"  DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE"  DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" DistrictType="DISTRICT_RURAL"/>
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+	</Constructible_ValidBiomes>
+	<Constructible_InvalidAdjacentBiomes>
+	</Constructible_InvalidAdjacentBiomes>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" TerrainType="TERRAIN_COAST"/>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
+	</Constructible_ValidTerrains>
+	<AgeConstructibleDefaultYields>
+	</AgeConstructibleDefaultYields>
+	<AgeConstructibleDefaultMaintenances>
+	</AgeConstructibleDefaultMaintenances>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" YieldType="YIELD_GOLD" YieldChange="5"/>
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_GOLD" Amount="3"/>
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchForestHappiness"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchTiagaHappiness"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="LongHourRuralCulture"/>
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="StaveChurchForestHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="StaveChurchTiagaHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_TAIGA"/>
+		<Row ID="LongHourRuralCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_RURAL"/>
+	</Adjacency_YieldChanges>
+
+	<Constructible_WarehouseYields>
+
+	</Constructible_WarehouseYields>
+
+	<Warehouse_YieldChanges>
+ 	</Warehouse_YieldChanges>
+
+	<Constructible_WildcardAdjacencies>
+
+	</Constructible_WildcardAdjacencies>
+	<Constructible_Logistics>
+
+	</Constructible_Logistics>
+	<Constructible_Plunders>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" PlunderType="PLUNDER_HEAL" Amount="30"/>
+	</Constructible_Plunders>
+	<ConstructibleModifiers>
+
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" BuildingType1="BUILDING_STAVE_CHURCH" BuildingType2="BUILDING_LONGHOUSE" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Tooltip="LOC_QUARTER_TRELLEBORG_TOOLTIP" TraitType="TRAIT_VIKING"/>
+	</UniqueQuarters>
+	<GameModifiers>
+		<Row ModifierId="TRELLEBORG_MOD_FREE_BUILDING"/>
+		<Row ModifierId="TRELLEBORG_MOD_FREE_WALLS"/>
+		
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="TRELLEBORG_MOD_FREE_BUILDING"/>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="TRELLEBORG_MOD_FREE_WALLS"/>
+	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+		<Row ConstructibleType="IMPROVEMENT_NAUST" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+
+	</Constructible_Advisories>
+
+</Database>

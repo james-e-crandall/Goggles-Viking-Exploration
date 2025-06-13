@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_VIKING_NAME">
+			<Text>Viking</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_VIKING_DESCRIPTION">
+			<Text>Viking Antiquity Age</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_AUTHORS_JEC">
+			<Text>The_Goggles_Do_Nothing</Text>
+		</InsertOrIgnore>
+	</EnglishText>
+</Database>

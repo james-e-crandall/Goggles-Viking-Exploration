@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="TRAIT_VIKING_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_VIKING" Name="LOC_CIVILIZATION_VIKING_NAME" FullName="LOC_CIVILIZATION_VIKING_FULLNAME" Description="LOC_CIVILIZATION_VIKING_DESCRIPTION" Adjective="LOC_CIVILIZATION_VIKING_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_VIKING" CapitalName="LOC_CITY_NAME_VIKING1" RandomCityNameDepth="10" />	
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_VIKING" FavoredWonderType="WONDER_BOROBUDUR" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
+	</CivilizationFavoredWonders>
+	<Traits>
+		<Row TraitType="TRAIT_VIKING_ABILITY" Name="LOC_TRAIT_VIKING_ABILITY_NAME" Description="LOC_TRAIT_VIKING_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_VIKING"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_VIKING"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_VIKING_FORBID_CITIES_FROM_TOWNS"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_CULTURE"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_CULTURE"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_SCIENCE"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_SCIENCE"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_EXPLORATION_CIV"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_CULTURAL"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_VIKING" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_VIKING" RequirementId="REQ_PLAYER_HAS_TRAIT_VIKING"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_VIKING" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_VIKING" Name="TraitType" Value="TRAIT_VIKING"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_VIKING" Priority="2"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_VIKING" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--VIKING-->
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING1"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING2"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING3"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING4"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING5"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING6"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING7"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING8"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING9"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING10"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING11"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING12"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING13"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING14"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING15"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING16"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING17"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING18"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING19"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING20"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING21"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING22"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING23"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING24"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING25"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING26"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING27"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING28"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING29"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING30"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING31"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING32"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING33"/>
+	</CityNames>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_VIKING" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
+	</StartBiasTerrains>
+	<StartBiasAdjacentToCoasts>
+			<Row CivilizationType="CIVILIZATION_VIKING" Score="150"/>
+	</StartBiasAdjacentToCoasts>
+
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_VIKING" BuildingCulture="BUILDING_CULTURE_NEU"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_VIKING" UnitCulture="Euro"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

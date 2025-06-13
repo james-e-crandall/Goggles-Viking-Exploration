@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_VIKING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_VIKING_2" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_VIKING" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_VIKING" Name="LOC_CIVILIZATION_VIKING_NAME" FullName="LOC_CIVILIZATION_VIKING_FULLNAME" Adjective="LOC_CIVILIZATION_VIKING_ADJECTIVE" Age="AGE_EXPLORATION"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_VIKING" InternalOnly="true"/>
+		<Row TraitType="TRAIT_VIKING_2" InternalOnly="true"/>
+	</Traits>
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_VIKING"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_VIKING"/>
+	</LegacyLeaderCivPriorities>
+</Database>

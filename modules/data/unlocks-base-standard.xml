@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_VIKING" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" Name="LOC_CIVILIZATION_VIKING_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_VIKING" CivUnlock="true"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIV_IS_VIKING" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_PLAYER_HAS_3_NAVAL_UNITS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIV_IS_VIKING" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIV_IS_VIKING" Name="CivilizationType" Value="CIVILIZATION_VIKING"/>
+		<InsertOrIgnore RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS" Name="UnitTag" Value="UNIT_CLASS_NAVAL"/>
+		<InsertOrIgnore RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS" Name="Amount" Value="3"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIV_IS_VIKING" RequirementId="REQ_CIV_IS_VIKING"/>
+		<InsertOrIgnore RequirementSetId="REQSET_PLAYER_HAS_3_NAVAL_UNITS" RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" RequirementSetId="REQSET_PLAYER_HAS_3_NAVAL_UNITS" Description="LOC_UNLOCK_NAVAL_UNITS_DESCRIPTION" Tooltip="LOC_UNLOCK_NAVAL_UNITS_VIKING_TOOLTIP" NarrativeText="LOC_UNLOCK_VIKING_UNITS_VIKING_NARRATIVE"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" RequirementSetId="REQSET_LEADER_IS_FRIEDRICH" Description="LOC_UNLOCK_PLAY_AS_FRIEDRICH_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_FRIEDRICH_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" RequirementSetId="REQSET_LEADER_IS_CHARLEMAGNE" Description="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" ConfigurationValue="CIVILIZATION_VIKING"/>
+	</UnlockConfigurationValues>
+</Database>

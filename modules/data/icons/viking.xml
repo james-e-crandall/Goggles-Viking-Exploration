@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+    <IconDefinitions>
+        <!-- Civ Symbol-->
+        <Row>
+            <ID>CIVILIZATION_VIKING</ID>
+            <Path>fs://game/goggles_civ_viking/icons/civ_sym_viking</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+		<Row>
+			<ID>ICON_CIVILIZATION_VIKING</ID>
+            <Path>fs://game/goggles_civ_viking/icons/civ_sym_viking</Path>
+		</Row>
+        <!-- Loadscreen -->
+		<Row>
+			<ID>CIVILIZATION_VIKING</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_viking/icons/lsbg_viking_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_VIKING</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_viking/iconslsbg_viking_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+        <!-- Culture -->
+        <Row>
+            <ID>cult_viking</ID>
+            <Path>fs://game/goggles_civ_viking/icons/cult_viking.png</Path>
+        </Row> 
+        <Row>
+            <ID>civ_line_viking</ID>
+            <Path>fs://game/goggles_civ_viking/icons/civ_line_viking.png</Path>
+        </Row> 
+        <!-- Buildings -->
+        <Row>
+            <ID>BUILDING_STAVE_CHURCH</ID>
+            <Path>fs://game/goggles_civ_viking/icons/buildicon_stave_church.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_LONGHOUSE</ID>
+            <Path>fs://game/goggles_civ_viking/icons/buildicon_longhouse.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>IMPROVEMENT_NAUST</ID>
+            <Path>fs://game/goggles_civ_viking/icons/impicon_naust.png</Path>
+        </Row>
+        <!-- UU AND UI -->
+        <Row>
+            <ID>UNIT_LONGBOAT</ID>
+            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+       
+    </IconDefinitions>
+</Database>

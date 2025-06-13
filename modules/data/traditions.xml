@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+	<!-- NODE_CIVIC_EX_VIKING_AXE_AGE -->
+	<Row Type="TRADITION_VIKING_NORTH_SEA_EMPIRE" Kind="KIND_TRADITION"/>
+	<!-- NODE_CIVIC_EX_VIKING_SWORD_AGE -->
+	<Row Type="TRADITION_VIKING_KNARR" Kind="KIND_TRADITION"/>
+	<!-- NODE_CIVIC_EX_VIKING_WIND_AGE -->
+	<Row Type="TRADITION_VIKING_BALDR" Kind="KIND_TRADITION"/>
+	<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
+
+	</Types>
+	<Traditions>
+		<!-- NODE_CIVIC_EX_VIKING_AXE_AGE -->
+		<Row TraditionType="TRADITION_VIKING_NORTH_SEA_EMPIRE" Name="LOC_TRADITION_VIKING_NORTH_SEA_EMPIRE_NAME" Description="LOC_TRADITION_VIKING_NORTH_SEA_EMPIRE_DESCRIPTION" TraitType="TRAIT_VIKING" AgeType="AGE_EXPLORATION"/>
+
+		<!-- NODE_CIVIC_EX_VIKING_SWORD_AGE -->
+		<Row TraditionType="TRADITION_VIKING_KNARR" Name="LOC_TRADITION_VIKING_KNARR_NAME" Description="LOC_TRADITION_VIKING_KNARR_DESCRIPTION" TraitType="TRAIT_VIKING" AgeType="AGE_EXPLORATION"/>
+
+		<!-- NODE_CIVIC_EX_VIKING_WIND_AGE -->
+		<Row TraditionType="TRADITION_VIKING_BALDR" Name="LOC_TRADITION_VIKING_BALDR_NAME" Description="LOC_TRADITION_VIKING_BALDR_DESCRIPTION" TraitType="TRAIT_VIKING" AgeType="AGE_EXPLORATION"/>
+
+		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
+	</Traditions>
+	<TraditionModifiers>
+
+
+	</TraditionModifiers>
+
+	<UnitClass_Abilities>
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+	</UnitAbilityModifiers>
+</Database>

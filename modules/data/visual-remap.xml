@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+        <!-- buildings -->
+        <Row>
+            <ID>REMAP_BUILDING_STAVE_CHURCH</ID>
+            <DisplayName>LOC_BUILDING_STAVE_CHURCH_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_STAVE_CHURCH</From>
+            <To>BUILDING_TAVERN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_BUILDING_LONGHOUSE</ID>
+            <DisplayName>LOC_BUILDING_LONGHOUSE_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_LONGHOUSE</From>
+            <To>BUILDING_TAVERN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_IMPROVEMENT_NAUST</ID>
+            <DisplayName>LOC_IMPROVEMENT_NAUST_NAME</DisplayName>
+            <Kind>IMPROVEMENT</Kind>
+            <From>IMPROVEMENT_NAUST</From>
+            <To>IMPROVEMENT_MONASTERY</To>
+        </Row>
+        <!-- units -->
+        <Row>
+            <ID>REMAP_UNIT_LONGBOAT</ID>
+            <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LONGBOAT</From>
+            <To>UNIT_QUADRIREME</To>
+        </Row>
+        
+    </VisualRemaps>
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->

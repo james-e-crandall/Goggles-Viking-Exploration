@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_TREE_CIVICS_EX_VIKING_NAME">
+			<Text>Viking Civics</Text>
+		</Row>
+		<!-- NODE_CIVIC_EX_VIKING_AXE_AGE -->
+		<Row Tag="LOC_CIVIC_EX_VIKING_AXE_AGE_NAME">
+			<Text>axe-age</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_AXE_AGE_QUOTE">
+			<Text>And now, if you have anything more to ask, I can't think how you can manage it, for I've never heard anyone tell more of the story of the world. Make what use of it you can.</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_AXE_AGE_QUOTE_AUTHOR">
+			<Text>Snorri Sturluson</Text>
+		</Row>
+		<!-- Tradtion -->
+
+
+		<!-- NODE_CIVIC_EX_VIKING_SWORD_AGE -->
+		<Row Tag="LOC_CIVIC_EX_VIKING_SWORD_AGE_NAME">
+			<Text>sword-age</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_SWORD_AGE_QUOTE">
+			<Text>Who has ever wandered through such forests, in a length of many miles, in a boundless expanse, without a path, without a goal, amid their monstrous shadows, their sacred gloom, without being filled with deep reverence for the sublime greatness of Nature above all human agency, without feeling the grandeur of the idea which forms the basis of Vidar’s essence?</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_SWORD_AGE_QUOTE_AUTHOR">
+			<Text>Snorri Sturluson</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_EX_VIKING_WIND_AGE -->
+		<Row Tag="LOC_CIVIC_EX_VIKING_SWIND_AGE_NAME">
+			<Text>wind-age</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE">
+			<Text>The old witch bears many giants for sons, and all in the shape of wolves; and from this source are those wolves sprung. The saying runs thus: from this race shall come one that shall be mightiest of all; he that is named Moon-Hound; he shall be filled with the flesh of all those men that die, and he shall swallow the moon, and sprinkle with blood the heavens and all the air; thereof shall the sun lose her shining, and the winds in that day shall be unquiet and roar on every side.</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE_AUTHOR">
+			<Text>Snorri Sturluson</Text>
+		</Row>
+		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
+		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_NAME">
+			<Text>wolf-age</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_QUOTE">
+			<Text>The Midgard Serpent opened its mouth and swallowed the ox head. The hook dug into the gums of its mouth, and when the serpent felt this, he snapped back so hard that both of Thor’s fists slammed against the gunwale. Thor now became angry and, taking on his divine strength, he strained so hard that both his feet pushed through the bottom of the boat. Using the sea floor to brace himself, he began pulling the serpent up on board. It can be said that no one has seen a more terrifying sight than this: Thor, narrowing his eyes at the serpent, while the serpent spits out poison and stares straight back from below. It is told that the giant Hymir changed colour. He grew pale and feared for his life when he saw the serpent and also the sea rushing in and out of the boat.</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_QUOTE_AUTHOR">
+			<Text>Snorri Sturluson</Text>
+		</Row>
+
+</EnglishText>
+</Database>

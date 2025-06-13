@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Attributes -->
+	<Modifier id="MOD_VIKING_FORBID_CITIES_FROM_TOWNS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_FORBID_UPGRADE_TOWN_TO_CITY"></Modifier>
+
+	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_CULTURE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
+		<Argument name="Amount">25</Argument>
+		<Argument name="PlunderTypes">PLUNDER_CULTURE_CITY</Argument>
+	</Modifier>
+	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_CULTURE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
+		<Argument name="Amount">25</Argument>
+		<Argument name="PlunderTypes">PLUNDER_CULTURE_CITY</Argument>
+	</Modifier>
+	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
+		<Argument name="Amount">25</Argument>
+		<Argument name="PlunderTypes">PLUNDER_SCIENCE_CITY</Argument>
+	</Modifier>
+	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
+		<Argument name="Amount">25</Argument>
+		<Argument name="PlunderTypes">PLUNDER_SCIENCE_CITY</Argument>
+	</Modifier>
+
+	<!-- Civ Standard -->
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_VIKING" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_VIKING</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_EX_VIKING</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_VIKING_DESCRIPTION</String>
+	</Modifier>
+	
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_VIKING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_VIKING</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_VIKING_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

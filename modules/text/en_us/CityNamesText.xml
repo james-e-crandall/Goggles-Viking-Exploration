@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--VIKING-->
+		<Row Tag="LOC_CITY_NAME_VIKING1">
+			<Text>Ribe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING2">
+			<Text>Austfirðir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING3">
+			<Text>Álptanes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING4">
+			<Text>Árnes </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING5">
+			<Text>Bleking</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING6">
+			<Text>Borgarfjǫrðrm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING7">
+			<Text>Breiðafjarðardalir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING8">
+			<Text>Breiðafjǫrðr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING9">
+			<Text>Drepstokkr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING10">
+			<Text>Egilsstaðir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING11">
+			<Text>Eiríksfjǫrðr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING12">
+			<Text>Eystribyggð</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING13">
+			<Text>Fjón</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING14">
+			<Text>Gjallarbrú</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING15">
+			<Text>Hafrsfjǫrðrm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING16">
+			<Text>Hasvimýrar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING17">
+			<Text>Orkneyjar</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_VIKING18">
+			<Text>Rangárvellir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING19">
+			<Text>Raumaríki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING20">
+			<Text>Refsstaðir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING21">
+			<Text>Síreksstaðir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING22">
+			<Text>Sjáland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING23">
+			<Text>Skáney</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING24">
+			<Text>Smjǫrvatnsheiðr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING25">
+			<Text>Sóknadalr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING26">
+			<Text>Stiklastaðir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING27">
+			<Text>Sunnudalrm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING28">
+			<Text>Súðvirki</Text>
+		</Row>	
+		<Row Tag="LOC_CITY_NAME_VIKING29">
+			<Text>Toptavǫllrm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING30">
+			<Text>Upplǫnd</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING31">
+			<Text>Uppsalir</Text>
+		</Row>	
+		<Row Tag="LOC_CITY_NAME_VIKING32">
+			<Text>Vágr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING33">
+			<Text>Vestfoldf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING34">
+			<Text>Vestribyggð</Text>
+		</Row>		
+		<Row Tag="LOC_CITY_NAME_VIKING35">
+			<Text>Þingvǫllrm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING36">
+			<Text>Þrœndalǫg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKING37">
+			<Text>Øxarfjǫrðrm</Text>
+		</Row>		
+	</EnglishText>
+</Database>

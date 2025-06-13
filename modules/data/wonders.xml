@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Wonders -->
+		<Row Type="WONDER_JELLING_STONES" Kind="KIND_CONSTRUCTIBLE"/>
+    </Types>
+	<Traits>
+	</Traits>
+	<TypeQuotes>
+		<!-- Wonders -->
+		<Row Type="WONDER_JELLING_STONES" Quote="LOC_QUOTE_WONDER_JELLING_STONES" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_JELLING_STONES" QuoteAudio="VO_Quote_Jelling_Stones"/>
+    </TypeQuotes>
+	<Constructibles>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_JELLING_STONES" Name="LOC_WONDER_JELLING_STONES_NAME" Description="LOC_WONDER_JELLING_STONES_DESCRIPTION" Tooltip="LOC_WONDER_JELLING_STONES_TOOLTIP" ConstructibleClass="WONDER" Cost="475" Population="0" ImmuneDamage="true" Age="AGE_EXPLORATION" AdjacentDistrict="DISTRICT_URBAN" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_JELLING_STONES" MaxWorldInstances="1"  />    
+	</Wonders>
+	<Constructible_ValidTerrains>
+	</Constructible_ValidTerrains>
+
+	<Constructible_ValidDistricts>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_JELLING_STONES" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_JELLING_STONES" YieldType="YIELD_FOOD" YieldChange="4"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<!-- Wonders -->
+    </ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_JELLING_STONES" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+    </Constructible_Advisories>
+</Database>

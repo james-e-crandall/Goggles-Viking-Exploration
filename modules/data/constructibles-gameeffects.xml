@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<Modifier id="TRELLEBORG_MOD_FREE_BUILDING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_BELLOWS_OF_HEPHAESTUS</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_TRELLEBORG_MOD_FREE_BUILDING</Argument>
+		<String context="Description">LOC_TRELLEBORG_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ATTACH_TRELLEBORG_MOD_FREE_BUILDING" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_FREE_BUILDING" run-once="true" permanent="true">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRELLEBORG_MOD_FREE_WALLS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_BELLOWS_OF_HEPHAESTUS</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_TRELLEBORG_MOD_FREE_BUILDING</Argument>
+		<String context="Description">LOC_TRELLEBORG_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ATTACH_TRELLEBORG_MOD_FREE_WALLS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_WALLS" permanent="true">
+		<Argument name="Amount">1</Argument>
+		<Argument name="BuildingType">BUILDING_MEDIEVAL_WALLS</Argument>
+		<String context="Description">LOC_TRELLEBORG_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

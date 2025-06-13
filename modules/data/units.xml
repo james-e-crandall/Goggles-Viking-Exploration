@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="UNIT_LONGBOAT" Kind="KIND_UNIT"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_LONGBOAT" Name="LOC_UNIT_LONGBOAT_NAME" Description="LOC_UNIT_LONGBOAT_DESCRIPTION" Tier="1" Maintenance="2" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true"/>
+	</Units>
+	<Unit_Stats>
+		<Row UnitType="UNIT_LONGBOAT" Combat="30" RangedCombat="35" Bombard="15" Range="2"/>		
+	</Unit_Stats>
+	<Unit_Costs>
+		<Row UnitType="UNIT_LONGBOAT" YieldType="YIELD_PRODUCTION" Cost="130"/>
+	</Unit_Costs>
+	<UnitUpgrades>
+	</UnitUpgrades>
+	<UnitReplaces>
+
+	</UnitReplaces>
+	<Unit_TransitionRetains>
+	</Unit_TransitionRetains>
+
+	<Unit_ShadowReplacements>
+	</Unit_ShadowReplacements>
+
+	<AiUnitEfficiencyBonuses>
+	</AiUnitEfficiencyBonuses>
+	<Tags>
+		<Row Tag="UNIT_CLASS_LONGBOAT" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_LONGBOAT" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_LONGBOAT" Tag="UNIT_CLASS_RANGED"/>
+		<Row Type="UNIT_LONGBOAT" Tag="UNIT_CLASS_NAVAL"/>
+		<Row Type="UNIT_LONGBOAT" Tag="UNIT_CLASS_RECON_ABILITIES"/>
+		<Row Type="UNIT_LONGBOAT" Tag="UNIT_CLASS_LONGBOAT"/>
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_LONGBOAT" UnitClassType="UNIT_CLASS_LONGBOAT"/>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_LONGBOAT" Name="LOC_ABILITY_LONGBOAT_NAME" Description="LOC_ABILITY_LONGBOAT_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_LONGBOAT" ModifierId="ABILITY_MOD_LONGBOAT_HALF_OCEAN_DAMAGE"/>
+	</UnitAbilityModifiers>
+	<ChargedUnitAbilities>
+	</ChargedUnitAbilities>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_LONGBOAT" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+	</Unit_Advisories>
+</Database>

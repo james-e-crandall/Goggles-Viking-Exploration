@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNIT_LONGBOAT_NAME">
+			<Text>Longboat</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBOAT_BASE_DESCRIPTION">
+			<Text>Viking Unique Naval Unit. Has Scout Abilities. -%50 Deep water damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBOAT_DESCRIPTION">
+			<Text>Viking Unique Naval Unit. Has Scout Abilities. -%50 Deep water damage.</Text>
+		</Row>
+	</EnglishText>
+</Database>
