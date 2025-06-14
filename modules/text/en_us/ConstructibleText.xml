@@ -5,42 +5,51 @@
 			<Text>Trelleborg</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_DESCRIPTION">
-			<Text>Trelleborg: Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District. One Free wall on the start of a Celebration.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District. One Free walls. +1[icon:YIELD_HAPPINESS] Happienss Wall Adjacency.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_TOOLTIP">
-			<Text>One Free wall on the start of a Celebration.</Text>
-		</Row>
-
-		<Row Tag="LOC_IMPROVEMENT_NAUST_NAME">
-			<Text>Naust</Text>
-		</Row>
-		<Row Tag="LOC_IMPROVEMENT_NAUST_DESCRIPTION">
-			<Text>+5[icon:YIELD_GOLD] Gold. Restores movement to any Viking Unit at its location. Viking Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Coast or Navigable River.</Text>
-		</Row>
-		<Row Tag="LOC_IMPROVEMENT_NAUST_TOOLTIP">
-			<Text>Restores movement to any Viking Unit at its location. Viking Unique Improvement. Ageless. Does not remove Warehouse bonuses on a tile. Must be placed on an existing Improvement on Coast or Navigable River.</Text>
+			<Text>One Free wall. +1[icon:YIELD_HAPPINESS] Happienss Wall Adjacency.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_NAME">
 			<Text>Stave Church</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION">
-			<Text>Unique Happiness Building. Grants a Great Work Slot.  Additional Happiness for each adjacent Forest and Taiga Tile.</Text>
+			<Text>Grants a Great Work Slot. Additional Happiness for each adjacent Forest and Taiga Tile.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_TOOLTIP">
-			<Text>Stave Church Unique Culture Building. Ageless.</Text>
+			<Text>Viking Unique Happiness Building. Grants a Great Work Slot. Additional Happiness for each adjacent Forest and Taiga Tile.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_LONGHOUSE_NAME">
 			<Text>Longhouse</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LONGHOUSE_DESCRIPTION">
-			<Text>Unique Culture Building. Created by constructing the Nausts and Gristmill in the same District Receive a free Infantry Unit when entering a Celebration.</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LONGHOUSE_TOOLTIP">
-			<Text>Longhouse: Unique Culture Building. Receive a free Infantry Unit when entering a Celebration.</Text>
+			<Text>Viking Unique Culture Building. +5[icon:YIELD_CULTURE] Culture.</Text>
 		</Row>
 
+		<Row Tag="LOC_QUARTER_LEIDANG_NAME">
+			<Text>Leidang</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_LEIDANG_DESCRIPTION">
+			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_LEIDANG_TOOLTIP">
+			<Text>+1[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_NAUST_NAME">
+			<Text>Naust</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NAUST_DESCRIPTION">
+			<Text>+5[icon:YIELD_GOLD] Gold. Restores movement to any Viking Unit at its location. Ageless.Must be placed on an on Coast or Navigable River.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NAUST_TOOLTIP">
+			<Text>Viking Unique Gold Building. Restores movement to any Viking Unit at its location. Viking Unique Improvement. Ageless. Must be placed on an Coast or Navigable River.</Text>
+		</Row>
 
 
 	</EnglishText>

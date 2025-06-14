@@ -45,8 +45,9 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>IMPROVEMENT_NAUST</ID>
-            <Path>fs://game/goggles_civ_viking/icons/impicon_naust.png</Path>
+            <ID>BUILDING_NAUST</ID>
+            <Path>fs://game/goggles_civ_viking/icons/buildicon_naust.png</Path>
+            <Context>DEFAULT</Context>
         </Row>
         <!-- UU AND UI -->
         <Row>
@@ -54,6 +55,15 @@
             <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-       
+        <Row>
+            <ID>UNIT_LONGBOAT_2</ID>
+            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_LONGBOAT_3</ID>
+            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
     </IconDefinitions>
 </Database>

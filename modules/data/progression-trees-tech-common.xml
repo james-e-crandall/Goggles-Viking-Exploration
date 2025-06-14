@@ -9,6 +9,9 @@
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_SHIPBUILDING" TargetKind="KIND_UNIT" TargetType="UNIT_LONGBOAT_2" UnlockDepth="1" RequiredTraitType="TRAIT_VIKING"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_ARCHITECTURE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_JELLING_STONES" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_GUNPOWDER" TargetKind="KIND_UNIT" TargetType="UNIT_LONGBOAT_3" UnlockDepth="1" RequiredTraitType="TRAIT_VIKING"/>
 
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>

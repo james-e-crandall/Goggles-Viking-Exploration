@@ -17,5 +17,16 @@
 			<Text>You have unlocked the Vikings by having 3 Naval units.</Text>
 		</Row>
 
+		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_VIKING_TOOLTIP">
+			<Text>[B]Friedrich[/B] was from the same continent as the [B]Vikings[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_VIKING_TOOLTIP">
+			<Text>[B]Charlemagne[/B] was from the same continent as the [B]Vikings[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP">
+			<Text>[B]Friedrich[/B] was from the same continent as the [B]Vikings[/B].</Text>
+		</Row>
+
+
 	</EnglishText>
 </Database>

@@ -16,10 +16,11 @@
 	<CivilizationItems>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="TRAIT_VIKING_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_VIKING_ABILITY_NAME" Description="LOC_TRAIT_VIKING_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="UNIT_LONGBOAT" Kind="KIND_UNIT" Name="LOC_UNIT_LONGBOAT_NAME" Description="LOC_UNIT_LONGBOAT_DESCRIPTION" Icon="ICON_UNIT_LONGBOAT"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="IMPROVEMENT_NAUST" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_NAUST_NAME" Description="LOC_IMPROVEMENT_NAUST_DESCRIPTION" Icon="impicon_naust.png"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="QUARTER_TRELLEBORG" Kind="KIND_QUARTER" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Icon="city_uniquequarter"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_STAVE_CHURCH" Kind="KIND_BUILDING" Name="LOC_BUILDING_STAVE_CHURCH_NAME" Description="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Icon="ICON_BUILDING_STAVE_CHURCH"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_LONGHOUSE" Kind="KIND_BUILDING" Name="LOC_BUILDING_LONGHOUSE_NAME" Description="LOC_BUILDING_LONGHOUSE_DESCRIPTION" Icon="ICON_BUILDING_LONGHOUSE"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="QUARTER_TRELLEBORG" Kind="KIND_QUARTER" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="QUARTER_LEIDANG" Kind="KIND_QUARTER" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_NAUST" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_NAUST_NAME" Description="LOC_BUILDING_NAUST_DESCRIPTION" Icon="ICON_BUILDING_BUILDING"/>
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" TagType="TAG_TRAIT_EXPANSIONIST"/>
@@ -28,8 +29,11 @@
 	<LeaderCivilizationBias>
 		<!-- base -->
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<!-- DLC -->
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_JOE_TEST" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		
 	</LeaderCivilizationBias>
 	<LeaderUnlocks>
 		<!-- Base -->

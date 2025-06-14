@@ -4,11 +4,34 @@
 		<Row Tag="LOC_UNIT_LONGBOAT_NAME">
 			<Text>Longboat</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_LONGBOAT_2_NAME">
+			<Text>Longboat 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBOAT_3_NAME">
+			<Text>Longboat 3</Text>
+		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_BASE_DESCRIPTION">
-			<Text>Viking Unique Naval Unit. Has Scout Abilities. -%50 Deep water damage.</Text>
+			<Text>Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_DESCRIPTION">
-			<Text>Viking Unique Naval Unit. Has Scout Abilities. -%50 Deep water damage.</Text>
+			<Text>Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBOAT_2_DESCRIPTION">
+			<Text>Tier 2 Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBOAT_3_DESCRIPTION">
+			<Text>Tier 3 Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations.</Text>
+		</Row>
+
+		<!-- Abilities -->
+		<Row Tag="LOC_ABILITY_LONGBOAT_ROUGH_SEA_WEATHER_DESCRIPTION">
+			<Text>Longboats have Immunity to Hurricane Damage.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION">
+			<Text>+10 Combat Strength on Navigable River Tiles</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_PREVIEW">
+			<Text>+{1_Amount} Navigable River</Text>
 		</Row>
 	</EnglishText>
 </Database>

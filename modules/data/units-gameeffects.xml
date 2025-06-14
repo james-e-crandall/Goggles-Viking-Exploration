@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Units  -->
-	<Modifier id="ABILITY_MOD_LONGBOAT_HALF_OCEAN_DAMAGE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_WATER_DAMAGE_PROTECTION">
-		<Argument name="WaterDamage">50</Argument>
-		<String context="Description">LOC_LONGBOAT_DESCRIPTION</String>
-	</Modifier>
-
-
-		<Modifier id="TRAIT_MOD_KSEKAM_CHAMNON_NAVIGABLE_RIVER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_NATURAL_YIELDS">
-		<Argument name="TerrainTypes">TERRAIN_NAVIGABLE_RIVER</Argument>
-		<Argument name="Tooltip">LOC_TRAIT_KHMER_ABILITY_NAME</Argument>
-	</Modifier>
-
-
-		<Modifier id="DHOW_MOD_COMBAT_COAST" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="MOD_LONGBOAT_ROUGH_SEA_WEATHER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
-				<Argument name="TerrainType">TERRAIN_COAST</Argument>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_LONGBOAT</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">4</Argument>
-		<String context="Preview">LOC_ABILITY_DHOW_PREVIEW</String>
+		<Argument name="AbilityType">ABILITY_LONGBOAT_ROUGH_SEA_WEATHER</Argument>
+		<String context="Description">LOC_ABILITY_LONGBOAT_ROUGH_SEA_WEATHER_DESCRIPTION</String>
 	</Modifier>
+
+	<Modifier id="ABILITY_MOD_LONGBOAT_FRIENDLY_HURRICANE_IMMUNITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNITS_IMMUNE_TO_RANDOM_EVENTS">
+		<Argument name="RandomEventClass">CLASS_HURRICANE</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_LONGBOAT_NAVIGABLE_RIVER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_LONGBOAT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_LONGBOAT_NAVIGABLE_RIVER</Argument>
+		<String context="Description">LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="ABILITY_MOD_LONGBOAT_NAVIGABLE_RIVER_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
+				<Argument name="TerrainType">TERRAIN_NAVIGABLE_RIVER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">10</Argument>
+		<String context="Preview">LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_PREVIEW</String>
+	</Modifier>
+
 </GameEffects>

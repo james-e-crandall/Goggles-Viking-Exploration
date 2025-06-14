@@ -29,9 +29,22 @@
             <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_LONGBOAT</From>
-            <To>UNIT_QUADRIREME</To>
+            <To>UNIT_COG</To>
         </Row>
-        
+        <Row>
+            <ID>REMAP_UNIT_LONGBOAT_2</ID>
+            <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LONGBOAT_2</From>
+            <To>UNIT_CARRACK</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_LONGBOAT_3</ID>
+            <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LONGBOAT_3</From>
+            <To>UNIT_GALLEON</To>
+        </Row>
     </VisualRemaps>
 </Database>
 <!-- generated with https://github.com/izica/civ7-modding-tools -->

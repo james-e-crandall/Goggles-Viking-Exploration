@@ -4,43 +4,45 @@
 		<!-- Civ Unique Trees -->
 		<Row Type="TREE_CIVICS_EX_VIKING" Kind="KIND_TREE"/>
 		<!-- Civ Unique Tree Nodes -->
+		<Row Type="NODE_CIVIC_EX_VIKING_WIND_AGE" Kind="KIND_TREE_NODE"/>
 		<Row Type="NODE_CIVIC_EX_VIKING_AXE_AGE" Kind="KIND_TREE_NODE"/>
 		<Row Type="NODE_CIVIC_EX_VIKING_SWORD_AGE" Kind="KIND_TREE_NODE"/>
-		<Row Type="NODE_CIVIC_EX_VIKING_WIND_AGE" Kind="KIND_TREE_NODE"/>
 		<Row Type="NODE_CIVIC_EX_VIKING_WOLF_AGE" Kind="KIND_TREE_NODE"/>
 	</Types>
 	<TypeQuotes>
+		<Row Type="NODE_CIVIC_EX_VIKING_WIND_AGE" Quote="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE" QuoteAuthor="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE_AUTHOR" QuoteAudio="VO_Quote_WIND_AGE"/>
 		<Row Type="NODE_CIVIC_EX_VIKING_AXE_AGE" Quote="LOC_CIVIC_EX_VIKING_AXE_AGE_QUOTE" QuoteAuthor="LOC_CIVIC_EX_VIKING_AXE_AGE_QUOTE_AUTHOR" QuoteAudio="VO_Quote_AXE_AGE" />
 		<Row Type="NODE_CIVIC_EX_VIKING_SWORD_AGE" Quote="LOC_CIVIC_EX_VIKING_SWORD_AGE_QUOTE" QuoteAuthor="LOC_CIVIC_EX_VIKING_SWORD_AGE_QUOTE" QuoteAudio="VO_Quote_SWORD_AGE" />
-		<Row Type="NODE_CIVIC_EX_VIKING_WIND_AGE" Quote="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE" QuoteAuthor="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE_AUTHOR" QuoteAudio="VO_Quote_WIND_AGE"/>
 		<Row Type="NODE_CIVIC_EX_VIKING_WOLF_AGE" Quote="LOC_CIVIC_EX_VIKING_WOLF_AGE_QUOTE" QuoteAuthor="LOC_CIVIC_EX_VIKING_WOLF_AGE_QUOTE_AUTHOR" QuoteAudio="VO_Quote_WIND_AGE"/>
-
-
 	</TypeQuotes>
 	<ProgressionTrees>
 		<Row ProgressionTreeType="TREE_CIVICS_EX_VIKING" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_VIKING_NAME"/>
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" ProgressionTree="TREE_CIVICS_EX_VIKING" Cost="800" Name="LOC_CIVIC_EX_VIKING_AXE_AGE_NAME" IconString="cult_viking" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WIND_AGE" ProgressionTree="TREE_CIVICS_EX_VIKING" Cost="800" Name="LOC_CIVIC_EX_VIKING_WIND_AGE_NAME" IconString="cult_viking" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" ProgressionTree="TREE_CIVICS_EX_VIKING" Cost="1200" Name="LOC_CIVIC_EX_VIKING_AXE_AGE_NAME" IconString="cult_viking" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" ProgressionTree="TREE_CIVICS_EX_VIKING" Cost="1200" Name="LOC_CIVIC_EX_VIKING_SWORD_AGE_NAME" IconString="cult_viking" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WIND_AGE" ProgressionTree="TREE_CIVICS_EX_VIKING" Cost="2000" Name="LOC_CIVIC_EX_VIKING_WIND_AGE_NAME" IconString="cult_viking" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" ProgressionTree="TREE_CIVICS_EX_VIKING" Cost="2000" Name="LOC_CIVIC_EX_VIKING_WOLF_AGE_NAME" IconString="cult_viking" />
-		
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
-		<!-- AXE_AGE -->
-
-		<!-- SWORD_AGE -->
-
 		<!-- NODE_CIVIC_EX_VIKING_WIND_AGE -->
-		
-
-
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WIND_AGE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_NAUST" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WIND_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_ROUGH_SEA_WEATHER" UnlockDepth="1"/>	
+		<!-- NODE_CIVIC_EX_VIKING_AXE_AGE -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_STAVE_CHURCH" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_JELLING_STONES" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_LONGHOUSE" UnlockDepth="2"/>
+		<!-- NODE_CIVIC_EX_VIKING_SWORD_AGE -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_NAVIGABLE_RIVER" UnlockDepth="1"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_TRADITION" TargetType="TRADITION_VIKING_NORTH_SEA_EMPIRE" UnlockDepth="1"/>	
+		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_WOLF_AGE_BUILDING_PURCHASE_DISCOUNT" UnlockDepth="1"/>	
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
-		<Row Node="NODE_CIVIC_EX_VIKING_WIND_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_AXE_AGE"/>
-		<Row Node="NODE_CIVIC_EX_VIKING_WIND_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_SWORD_AGE"/>
-		<Row Node="NODE_CIVIC_EX_VIKING_WOLF_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_WIND_AGE"/>
+		<Row Node="NODE_CIVIC_EX_VIKING_AXE_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_WIND_AGE"/>
+		<Row Node="NODE_CIVIC_EX_VIKING_SWORD_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_WIND_AGE"/>
+		<Row Node="NODE_CIVIC_EX_VIKING_WOLF_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_AXE_AGE"/>
+		<Row Node="NODE_CIVIC_EX_VIKING_WOLF_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_SWORD_AGE"/>
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>
 

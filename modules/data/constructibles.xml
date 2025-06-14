@@ -4,7 +4,7 @@
 		<!-- Civ Unique Buildings -->
 		<Row Type="BUILDING_STAVE_CHURCH" Kind="KIND_CONSTRUCTIBLE"/>
 		<Row Type="BUILDING_LONGHOUSE" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="IMPROVEMENT_NAUST" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_NAUST" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
@@ -14,15 +14,15 @@
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" Name="LOC_BUILDING_STAVE_CHURCH_NAME" Description="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Tooltip="LOC_BUILDING_STAVE_CHURCH_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" Name="LOC_BUILDING_LONGHOUSE_NAME" Description="LOC_BUILDING_LONGHOUSE_DESCRIPTION" Tooltip="LOC_BUILDING_LONGHOUSE_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" Name="LOC_IMPROVEMENT_NAUST_NAME" Description="LOC_IMPROVEMENT_NAUST_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_NAUST_TOOLTIP" ConstructibleClass="IMPROVEMENT" RiverPlacement="ANCHORED" Cost="90" Population="1" MilitaryDomain="DOMAIN_SEA" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_NAUST" Name="LOC_BUILDING_NAUST_NAME" Description="LOC_BUILDING_NAUST_DESCRIPTION" Tooltip="LOC_BUILDING_NAUST_TOOLTIP" ConstructibleClass="BUILDING" RiverPlacement="ANCHORED" Cost="90" Population="1" MilitaryDomain="DOMAIN_SEA" Age="AGE_EXPLORATION"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
+		<Row ConstructibleType="BUILDING_NAUST" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
 	</Buildings>
 	<Improvements>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_VIKING"/>
 	</Improvements>
 	<Wonders>
 	</Wonders>
@@ -33,8 +33,10 @@
 		<Row Type="BUILDING_LONGHOUSE" Tag="CULTURE"/>
 		<Row Type="BUILDING_LONGHOUSE" Tag="UNIQUE"/>
 		<Row Type="BUILDING_LONGHOUSE" Tag="AGELESS"/>
-		<Row Type="IMPROVEMENT_NAUST" Tag="UNIQUE_IMPROVEMENT"/>
-		<Row Type="IMPROVEMENT_NAUST" Tag="AGELESS"/>
+		<Row Type="BUILDING_NAUST" Tag="GOLD"/>
+		<Row Type="BUILDING_NAUST" Tag="UNIQUE"/>
+		<Row Type="BUILDING_NAUST" Tag="AGELESS"/>
+		<Row Type="BUILDING_NAUST" Tag="WATER"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Buildings -->
@@ -42,7 +44,8 @@
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH"  DistrictType="DISTRICT_URBAN"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE"  DistrictType="DISTRICT_CITY_CENTER"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE"  DistrictType="DISTRICT_URBAN"/>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" DistrictType="DISTRICT_RURAL"/>
+		<Row ConstructibleType="BUILDING_NAUST"  DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_NAUST"  DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
 	</District_FreeConstructibles>
@@ -51,8 +54,8 @@
 	<Constructible_InvalidAdjacentBiomes>
 	</Constructible_InvalidAdjacentBiomes>
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" TerrainType="TERRAIN_COAST"/>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
+		<Row ConstructibleType="BUILDING_NAUST" TerrainType="TERRAIN_COAST"/>
+		<Row ConstructibleType="BUILDING_NAUST" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
 	</Constructible_ValidTerrains>
 	<AgeConstructibleDefaultYields>
 	</AgeConstructibleDefaultYields>
@@ -61,21 +64,28 @@
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" YieldType="YIELD_GOLD" YieldChange="5"/>
+		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_GOLD" YieldChange="5"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_GOLD" Amount="3"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_GOLD" Amount="1"/>
+		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_GOLD" Amount="3"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchForestHappiness"/>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchTiagaHappiness"/>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="LongHourRuralCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="LonghouseResourceCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="MountainCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="NaturalWonderCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="WonderCulture"/>
+		<Row ConstructibleType="BUILDING_NAUST" YieldChangeId="NaustResourceGold"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="StaveChurchForestHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
 		<Row ID="StaveChurchTiagaHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_TAIGA"/>
-		<Row ID="LongHourRuralCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_RURAL"/>
+		<Row ID="LonghouseResourceCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="NaustResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="TrellborgWallHappiness" YieldType="YIELD_HAPPINESS" YieldChange="10" TilesRequired="1" AdjacentConstructibleTag="DISTRICT_WALL"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
@@ -83,36 +93,41 @@
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
+
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
-
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 
 	</Constructible_Logistics>
 	<Constructible_Plunders>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" PlunderType="PLUNDER_HEAL" Amount="30"/>
+		<Row ConstructibleType="BUILDING_NAUST" PlunderType="PLUNDER_HEAL" Amount="30"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
 
 	</ConstructibleModifiers>
 	<UniqueQuarters>
 		<Row UniqueQuarterType="QUARTER_TRELLEBORG" BuildingType1="BUILDING_STAVE_CHURCH" BuildingType2="BUILDING_LONGHOUSE" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Tooltip="LOC_QUARTER_TRELLEBORG_TOOLTIP" TraitType="TRAIT_VIKING"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" BuildingType1="BUILDING_NAUST" BuildingType2="BUILDING_FISHING_QUAY" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Tooltip="LOC_QUARTER_LEIDANG_TOOLTIP" TraitType="TRAIT_VIKING"/>
+
 	</UniqueQuarters>
 	<GameModifiers>
-		<Row ModifierId="TRELLEBORG_MOD_FREE_BUILDING"/>
-		<Row ModifierId="TRELLEBORG_MOD_FREE_WALLS"/>
-		
+		<Row ModifierId="MOD_QUARTER_TRELLEBORG_FREE_WALLS"/>
+		<Row ModifierId="MOD_QUARTER_TRELLEBORG_WALL_HAPPIENSS"/>
+		<Row ModifierId="MOD_QUARTER_LEIDANG_AQUATIC_HAPPIENSS"/>
+		<Row ModifierId="MOD_QUARTER_LEIDANG_RIVER_HAPPIENSS"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="TRELLEBORG_MOD_FREE_BUILDING"/>
 		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="TRELLEBORG_MOD_FREE_WALLS"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_AQUATIC_HAPPIENSS"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_RIVER_HAPPIENSS"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
-		<Row ConstructibleType="IMPROVEMENT_NAUST" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-
+		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_SEA"/>
 	</Constructible_Advisories>
 
 </Database>
