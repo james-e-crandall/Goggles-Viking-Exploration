@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="MOD_WOLF_AGE_BUILDING_PURCHASE_DISCOUNT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_PURCHASE_EFFICIENCY_PER_RESOURCE">
-		<Argument name="Percent">5</Argument>
-		<Argument name="ResourceType">RESOURCE_WHALES</Argument>
-		<Argument name="AffectBuildings">true</Argument>
+
+	<Modifier id="MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SURPLUS_HAPPINESS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Divisor">3</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_WOLF_AGE_NAME</Argument>
+		<String context="Description">LOC_MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE_DESCRIPTION</String>
 	</Modifier>
+
 </GameEffects>

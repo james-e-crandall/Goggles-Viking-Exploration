@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	
-	<Modifier id="MOD_NORTH_SEA_EMPIRE_PRODUCTION" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+	<Modifier id="MOD_TRADITION_VIKING_NORTH_SEA_EMPIRE_PRODUCTION" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL" />
 		</SubjectRequirements>
@@ -10,5 +10,13 @@
 		<Argument name="Amount">2</Argument>
 		<Argument name="PercentMultiplier">false</Argument>
 	</Modifier>
+
+	<Modifier id="MOD_TRADITION_VIKING_JORMUNGANDR_BUILDING_PURCHASE_DISCOUNT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_PURCHASE_EFFICIENCY_PER_RESOURCE">
+		<Argument name="Percent">10</Argument>
+		<Argument name="ResourceType">RESOURCE_WHALES</Argument>
+		<Argument name="AffectBuildings">true</Argument>
+	</Modifier>
+
+
 
 </GameEffects>

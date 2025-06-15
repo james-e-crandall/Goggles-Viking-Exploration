@@ -36,7 +36,8 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_NAVIGABLE_RIVER" UnlockDepth="1"/>	
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_TRADITION" TargetType="TRADITION_VIKING_NORTH_SEA_EMPIRE" UnlockDepth="1"/>	
 		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_WOLF_AGE_BUILDING_PURCHASE_DISCOUNT" UnlockDepth="1"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" TargetKind="KIND_TRADITION" TargetType="TRADITION_VIKING_JORMUNGANDR" UnlockDepth="1"/>	
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<Row Node="NODE_CIVIC_EX_VIKING_AXE_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_WIND_AGE"/>

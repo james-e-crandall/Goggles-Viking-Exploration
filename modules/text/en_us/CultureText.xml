@@ -59,7 +59,16 @@
 			<Text>Snorri Sturluson</Text>
 		</Row>
 
-		<!-- Traditions -->
+		<Row Tag="LOC_MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE_DESCRIPTION">
+			<Text>Adds Science for excess Happiness in Towns.</Text>
+		</Row>
 
+		<!-- Traditions -->
+		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_NAME">
+			<Text>Jörmungandr</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_DESCRIPTION">
+			<Text>+10%[icon:YIELD_GOLD] Gold towards purchasing Buildings in towns for each Whale Resource</Text>
+		</Row>
 </EnglishText>
 </Database>
