@@ -3,7 +3,7 @@
 	<EnglishText>
 		<!--VIKING-->
 		<Row Tag="LOC_CITY_NAME_VIKING1">
-			<Text>Ribe</Text>
+			<Text>Þingvǫllr</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING2">
 			<Text>Austfirðir</Text>
