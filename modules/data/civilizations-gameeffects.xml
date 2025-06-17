@@ -4,20 +4,21 @@
 	<Modifier id="MOD_VIKING_FORBID_CITIES_FROM_TOWNS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_FORBID_UPGRADE_TOWN_TO_CITY"></Modifier>
 
 	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
 		<Argument name="Amount">50</Argument>
 		<Argument name="PlunderTypes">PLUNDER_SCIENCE</Argument>
 	</Modifier>
 	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
 		<Argument name="Amount">50</Argument>
-		<Argument name="PlunderTypes">PLUNDER_SCIENCE</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_HEALING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">100</Argument>
-		<Argument name="PlunderTypes">PLUNDER_SCIENCE</Argument>
-	</Modifier>
-	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_HEALING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">100</Argument>
 		<Argument name="PlunderTypes">PLUNDER_SCIENCE</Argument>
 	</Modifier>
 

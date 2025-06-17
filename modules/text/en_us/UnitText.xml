@@ -27,11 +27,14 @@
 		<Row Tag="LOC_ABILITY_LONGBOAT_ROUGH_SEA_WEATHER_DESCRIPTION">
 			<Text>Longboats have Immunity to Hurricane Damage.</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION">
+		<Row Tag="LOC_MOD_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION">
 			<Text>+10 Combat Strength on Navigable River Tiles</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_PREVIEW">
-			<Text>+{1_Amount} Navigable River</Text>
+		<Row Tag="LOC_MOD_LONGBOAT_LAKE_DESCRIPTION">
+			<Text>+10 Combat Strength on Lake Tiles</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOD_LONGBOAT_COMBAT_STRENGTH_PREVIEW">
+			<Text>+{1_Amount} Navigable River or Lake</Text>
 		</Row>
 	</EnglishText>
 </Database>

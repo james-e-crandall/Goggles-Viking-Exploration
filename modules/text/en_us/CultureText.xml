@@ -59,8 +59,8 @@
 			<Text>Snorri Sturluson</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE_DESCRIPTION">
-			<Text>Adds Science for excess Happiness in Towns.</Text>
+		<Row Tag="LOC_MOD_WOLF_AGE_MOD_HAPPINESS_GOLD_DESCRIPTION">
+			<Text>Adds Gold for excess Happiness in Towns.</Text>
 		</Row>
 
 		<!-- Traditions -->

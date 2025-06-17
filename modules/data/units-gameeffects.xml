@@ -16,23 +16,37 @@
 	</Modifier>
 
 	<Modifier id="MOD_LONGBOAT_NAVIGABLE_RIVER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_LONGBOAT</Argument>
 			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_LONGBOAT_NAVIGABLE_RIVER</Argument>
-		<String context="Description">LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="ABILITY_MOD_LONGBOAT_NAVIGABLE_RIVER_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
 				<Argument name="TerrainType">TERRAIN_NAVIGABLE_RIVER</Argument>
 			</Requirement>
 		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_LONGBOAT_COMBAT_STRENGTH</Argument>
+		<String context="Description">LOC_MOD_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_LONGBOAT_LAKE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_LONGBOAT</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_IS_LAKE" />
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_LONGBOAT_COMBAT_STRENGTH</Argument>
+		<String context="Description">LOC_MOD_LONGBOAT_LAKE_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="ABILITY_MOD_LONGBOAT_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">10</Argument>
-		<String context="Preview">LOC_ABILITY_LONGBOAT_NAVIGABLE_RIVER_PREVIEW</String>
+		<String context="Preview">LOC_ABILITY_MOD_LONGBOAT_COMBAT_STRENGTH_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="ABILITY_MOD_LONGBOAT_ADVANCED_PILLAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_ADVANCED_PILLAGING">
+		<Argument name="UseAdvancedPillaging">true</Argument>
+		<Argument name="Range">2</Argument>
 	</Modifier>
 
 </GameEffects>

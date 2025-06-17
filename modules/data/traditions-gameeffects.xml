@@ -6,17 +6,16 @@
 			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL" />
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
-		<Argument name="ResourceType">RESOURCE_FISH</Argument>
+		<Argument name="ResourceType">RESOURCE_NITER</Argument>
 		<Argument name="Amount">2</Argument>
 		<Argument name="PercentMultiplier">false</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_TRADITION_VIKING_JORMUNGANDR_BUILDING_PURCHASE_DISCOUNT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_PURCHASE_EFFICIENCY_PER_RESOURCE">
-		<Argument name="Percent">10</Argument>
-		<Argument name="ResourceType">RESOURCE_WHALES</Argument>
-		<Argument name="AffectBuildings">true</Argument>
+	<Modifier id="MOD_TRADITION_VIKING_BALDR_WALL_HAPPIENSS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_MEDIEVAL_WALLS, BUILDING_ANCIENT_WALLS</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_QUARTER_TRELLEBORG_NAME</Argument>
 	</Modifier>
-
-
 
 </GameEffects>

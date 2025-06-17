@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<Modifier id="MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SURPLUS_HAPPINESS">
+	<Modifier id="MOD_WOLF_AGE_MOD_HAPPINESS_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SURPLUS_HAPPINESS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"/>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Divisor">3</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Divisor">2</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_WOLF_AGE_NAME</Argument>
-		<String context="Description">LOC_MOD_WOLF_AGE_MOD_HAPPINESS_SCIENCE_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_WOLF_AGE_MOD_HAPPINESS_GOLD_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>
