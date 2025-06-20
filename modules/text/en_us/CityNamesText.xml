@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!--VIKING-->
+		<!--
+		VIKING
+		e ð Á ð ó ý á ó úð
+		-->
 		<Row Tag="LOC_CITY_NAME_VIKING1">
-			<Text>Þingvǫllr</Text>
+			<Text>Þingvellr</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING2">
 			<Text>Austfirðir</Text>
@@ -18,13 +21,13 @@
 			<Text>Bleking</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING6">
-			<Text>Borgarfjǫrðrm</Text>
+			<Text>Borgarfjerðrm</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING7">
 			<Text>Breiðafjarðardalir</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING8">
-			<Text>Breiðafjǫrðr</Text>
+			<Text>Breiðafjerðr</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING9">
 			<Text>Drepstokkr</Text>
@@ -33,7 +36,7 @@
 			<Text>Egilsstaðir</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING11">
-			<Text>Eiríksfjǫrðr</Text>
+			<Text>Eiríksfjerðr</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING12">
 			<Text>Eystribyggð</Text>
@@ -45,7 +48,7 @@
 			<Text>Gjallarbrú</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING15">
-			<Text>Hafrsfjǫrðrm</Text>
+			<Text>Hafrsfjerðrm</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING16">
 			<Text>Hasvimýrar</Text>
@@ -73,7 +76,7 @@
 			<Text>Skáney</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING24">
-			<Text>Smjǫrvatnsheiðr</Text>
+			<Text>Smjervatnsheiðr</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING25">
 			<Text>Sóknadalr</Text>
@@ -88,10 +91,10 @@
 			<Text>Súðvirki</Text>
 		</Row>	
 		<Row Tag="LOC_CITY_NAME_VIKING29">
-			<Text>Toptavǫllrm</Text>
+			<Text>Toptavellrm</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING30">
-			<Text>Upplǫnd</Text>
+			<Text>Upplend</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING31">
 			<Text>Uppsalir</Text>
@@ -106,13 +109,10 @@
 			<Text>Vestribyggð</Text>
 		</Row>		
 		<Row Tag="LOC_CITY_NAME_VIKING35">
-			<Text>Þingvǫllrm</Text>
+			<Text>Þrœndaleg</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_VIKING36">
-			<Text>Þrœndalǫg</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING37">
-			<Text>Øxarfjǫrðrm</Text>
+			<Text>Øxarfjerðrm</Text>
 		</Row>		
 	</EnglishText>
 </Database>

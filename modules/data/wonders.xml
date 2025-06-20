@@ -3,6 +3,8 @@
 	<Types>
 		<!-- Wonders -->
 		<Row Type="WONDER_JELLING_STONES" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="ABILITY_JELLING_STONES" Kind="KIND_ABILITY"/>
+		
     </Types>
 	<Traits>
 	</Traits>
@@ -31,8 +33,19 @@
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
 		<!-- Wonders -->
+		 <Row ConstructibleType="WONDER_JELLING_STONES" ModifierId="WONDER_JELLING_STONES_MOD_SETTLER_MOVEMENT"/>
     </ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_JELLING_STONES" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
     </Constructible_Advisories>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_JELLING_STONES_MOVEMENT" Inactive="true" Name="LOC_WONDER_JELLING_STONES_NAME" Description="LOC_WONDER_JELLING_STONES_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitClass_Abilities>
+	</UnitClass_Abilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_JELLING_STONES_MOVEMENT" ModifierId="JELLING_STONES_MOVEMENT"/>
+		<Row UnitAbilityType="ABILITY_JELLING_STONES_MOVEMENT" ModifierId="JELLING_STONES_EMBARKED_MOVEMENT"/>
+	</UnitAbilityModifiers>
+
 </Database>

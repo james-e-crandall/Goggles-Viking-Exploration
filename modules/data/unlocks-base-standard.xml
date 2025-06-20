@@ -24,11 +24,11 @@
 		<Row RequirementId="REQ_CIV_IS_VIKING" Name="CivilizationType" Value="CIVILIZATION_VIKING"/>
 		<InsertOrIgnore RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS" Name="UnitTag" Value="UNIT_CLASS_NAVAL"/>
 		<InsertOrIgnore RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS" Name="Amount" Value="3"/>
-		<InsertOrIgnore RequirementSetId="REQ_PLAYER_HAS_3_NAVAL_UNITS" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="REQSET_CIV_IS_VIKING" RequirementId="REQ_CIV_IS_VIKING"/>
 		<InsertOrIgnore RequirementSetId="REQSET_PLAYER_HAS_3_NAVAL_UNITS" RequirementId="REQ_PLAYER_HAS_3_NAVAL_UNITS"/>
+		<InsertOrIgnore RequirementSetId="REQSET_PLAYER_HAS_3_NAVAL_UNITS" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" RequirementSetId="REQSET_PLAYER_HAS_3_NAVAL_UNITS" Description="LOC_UNLOCK_NAVAL_UNITS_DESCRIPTION" Tooltip="LOC_UNLOCK_NAVAL_UNITS_VIKING_TOOLTIP" NarrativeText="LOC_UNLOCK_VIKING_UNITS_VIKING_NARRATIVE"/>

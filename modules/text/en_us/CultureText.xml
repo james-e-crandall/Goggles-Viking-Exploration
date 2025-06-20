@@ -15,6 +15,17 @@
 		<Row Tag="LOC_CIVIC_EX_VIKING_WIND_AGE_QUOTE_AUTHOR">
 			<Text>Snorri Sturluson</Text>
 		</Row>
+		<Row Tag="LOC_CIVIC_EX_VIKING_WIND_AGE_WONDER_DISCOVERY_DESCRIPTION">
+			<Text>Gain 25 [icon:YIELD_PRODUCTION] Production in the capitol every time you discover a Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands.</Text>
+		</Row>
+
+		<!-- Tradtion -->
+		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_NAME">
+			<Text>Jörmungandr</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_DESCRIPTION">
+			<Text>Naval Units have Immunity to Hurricane Damage.</Text>
+		</Row>
 
 		<!-- NODE_CIVIC_EX_VIKING_AXE_AGE -->
 		<Row Tag="LOC_CIVIC_EX_VIKING_AXE_AGE_NAME">
@@ -41,12 +52,7 @@
 		</Row>
 
 		<!-- Traditions -->
-		<Row Tag="LOC_TRADITION_VIKING_NORTH_SEA_EMPIRE_NAME">
-			<Text>North Sea Empire</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_VIKING_NORTH_SEA_EMPIRE_DESCRIPTION">
-			<Text>+2[icon:YIELD_PRODUCTION]Production in the Capital for each Fish Resource</Text>
-		</Row>
+
 
 		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
 		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_NAME">
@@ -59,16 +65,19 @@
 			<Text>Snorri Sturluson</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_WOLF_AGE_MOD_HAPPINESS_GOLD_DESCRIPTION">
+		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_MOD_HAPPINESS_GOLD_DESCRIPTION">
 			<Text>Adds Gold for excess Happiness in Towns.</Text>
 		</Row>
 
 		<!-- Traditions -->
-		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_NAME">
-			<Text>Jörmungandr</Text>
+		<Row Tag="LOC_TRADITION_VIKING_NORTH_SEA_EMPIRE_NAME">
+			<Text>North Sea Empire</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_DESCRIPTION">
-			<Text>+10%[icon:YIELD_GOLD] Gold towards purchasing Buildings in towns for each Whale Resource</Text>
+		<Row Tag="LOC_TRADITION_VIKING_NORTH_SEA_EMPIRE_DESCRIPTION">
+			<Text>+2[icon:YIELD_HAPPINESS]Happiness on all walls.</Text>
 		</Row>
+
+
+
 </EnglishText>
 </Database>

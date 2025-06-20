@@ -109,6 +109,7 @@
 					<Item>icons/civ_sym_viking</Item>
                     <Item>icons/civ_sym_viking.png</Item>
 					<Item>icons/cult_viking.png</Item>
+					<Item>icons/wondericon_jelling_stones.png</Item>
 					<Item>icons/buildicon_stave_church.png</Item>
 					<Item>icons/buildicon_longhouse.png</Item>
 					<Item>icons/buildicon_naust.png</Item>
@@ -194,6 +195,7 @@
 					<Item>icons/civ_sym_viking</Item>
                     <Item>icons/civ_sym_viking.png</Item>
 					<Item>icons/cult_viking.png</Item>
+					<Item>icons/wondericon_jelling_stones.png</Item>
 					<Item>icons/buildicon_stave_church.png</Item>
 					<Item>icons/buildicon_longhouse.png</Item>
 					<Item>icons/buildicon_naust.png</Item>

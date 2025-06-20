@@ -2,6 +2,14 @@
 <GameEffects xmlns="GameEffects">
 	<!-- Attributes -->
 	<Modifier id="MOD_VIKING_FORBID_CITIES_FROM_TOWNS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_FORBID_UPGRADE_TOWN_TO_CITY"></Modifier>
+	<Modifier id="TRAIT_MOD_NAUST_RESTORE_MOVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_RESTORE_UNIT_MOVEMENT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">BUILDING_NAUST</Argument>
+			</Requirement>
+		</SubjectRequirements>
+	</Modifier>
+
 
 	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
 		<SubjectRequirements>

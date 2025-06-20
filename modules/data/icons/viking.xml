@@ -34,6 +34,10 @@
             <Path>fs://game/goggles_civ_viking/icons/civ_line_viking.png</Path>
         </Row> 
         <!-- Buildings -->
+		<Row>
+			<ID>WONDER_JELLING_STONES</ID>
+			<Path>fs://game/goggles_civ_viking/icons/wondericon_jelling_stones.png</Path>
+		</Row>
         <Row>
             <ID>BUILDING_STAVE_CHURCH</ID>
             <Path>fs://game/goggles_civ_viking/icons/buildicon_stave_church.png</Path>

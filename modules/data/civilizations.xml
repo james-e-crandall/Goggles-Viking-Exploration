@@ -18,13 +18,14 @@
 		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_VIKING_FORBID_CITIES_FROM_TOWNS"/>
 		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_SCIENCE"/>
 		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_SCIENCE"/>
+		<Row TraitType="TRAIT_VIKING_ABILITY" ModifierId="TRAIT_MOD_NAUST_RESTORE_MOVEMENT"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_EXPLORATION_CIV"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING_2"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING_ABILITY"/>
-		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_SCIENTIFIC"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_WILDCARD"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
 	</CivilizationTraits>
 	<RequirementSets>
@@ -78,6 +79,9 @@
 		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING31"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING32"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING33"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING34"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING35"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" CityName="LOC_CITY_NAME_VIKING36"/>
 	</CityNames>
 
 	<StartBiasTerrains>
