@@ -8,7 +8,7 @@
 			<Text>{LOC_WONDER_JELLING_STONES_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_JELLING_STONES_TOOLTIP">
-			<Text>+1 Movement to Settlers. Ageless. Must be built on the coast.</Text>
+			<Text>+1 Movement to Settlers Units.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_JELLING_STONES">
 			<Text>King Haraldr ordered these monuments made in memory of Gormr, his father, and in memory of Þyrvé, his mother; that Haraldr who won for himself all of Denmark</Text>
@@ -16,6 +16,9 @@
 		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_JELLING_STONES">
 			<Text>King Haraldr</Text>
 		</Row>
+		<!-- <Row Tag="LOC_ABILITY_JELLING_STONES_COMBAT_PREVIEW">
+			<Text>+{1_Value} Combat Strength for Infantry Units during a Celebration</Text>
+		</Row> -->
 
     </EnglishText>
 </Database>
