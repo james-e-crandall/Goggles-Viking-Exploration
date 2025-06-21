@@ -83,7 +83,7 @@
 	<Adjacency_YieldChanges>
 		<Row ID="StaveChurchForestHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
 		<Row ID="StaveChurchTiagaHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_TAIGA"/>
-		<Row ID="LonghouseResourceCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="LonghouseCoastCulture" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
 		<Row ID="NaustResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
 	</Adjacency_YieldChanges>
 
