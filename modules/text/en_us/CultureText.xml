@@ -24,7 +24,7 @@
 			<Text>Jörmungandr</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_VIKING_JORMUNGANDR_DESCRIPTION">
-			<Text>Naval Units have Immunity to Hurricane Damage.</Text>
+			<Text>Naval Units have Immunity to Hurricane and Thunderstorm Damage.</Text>
 		</Row>
 
 		<!-- NODE_CIVIC_EX_VIKING_AXE_AGE -->

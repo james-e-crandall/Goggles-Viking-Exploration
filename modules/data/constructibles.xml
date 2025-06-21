@@ -74,7 +74,7 @@
 	<Constructible_Adjacencies>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchForestHappiness"/>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchTiagaHappiness"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="LonghouseResourceCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="LonghouseCoastCulture"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="MountainCulture"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="NaturalWonderCulture"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="WonderCulture"/>
