@@ -24,7 +24,7 @@
 			<Text>Can only have 1 City. Towns cannot use Convert to City. Receive additional Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_VIKING_DESCRIPTION">
-			<Text>[LIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]Gain [icon:YIELD_SCIENCE] [B]Science [/B]when [B]pillaging [/B]Buildings or Improvements equal to the yield or healing gained.[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Trelleborg[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]Naval units gain [icon:YIELD_SCIENCE] [B]Science [/B]when [B]pillaging [/B]Buildings or Improvements equal to the yield or healing gained.[/B][LI]Infantry units gain [icon:YIELD_GOLD] [B]Gold [/B]when [B]pillaging [/B]Buildings or Improvements equal to the yield or healing gained.[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Trelleborg[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_VIKING_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Vikings's associated Wonder.</Text>

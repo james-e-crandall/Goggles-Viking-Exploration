@@ -85,6 +85,7 @@
 		<Row ID="StaveChurchTiagaHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_TAIGA"/>
 		<Row ID="LonghouseCoastCulture" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
 		<Row ID="NaustResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="BlotWildcardWarehouseFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentConstructibleTag="HAPPINESS"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
@@ -94,8 +95,8 @@
 	<Warehouse_YieldChanges>
 
  	</Warehouse_YieldChanges>
-
 	<Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="BlotWildcardWarehouseFood" RequiresActivation="true" ConstructibleTag="WAREHOUSE"/>
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 
@@ -112,15 +113,13 @@
 
 	</UniqueQuarters>
 	<GameModifiers>
-		<Row ModifierId="MOD_QUARTER_TRELLEBORG_PURCHASE_WALL_EFFICIENCY"/>
-		<Row ModifierId="MOD_QUARTER_LEIDANG_AQUATIC_HAPPIENSS"/>
-		<Row ModifierId="MOD_QUARTER_LEIDANG_RIVER_HAPPIENSS"/>
+		<Row ModifierId="MOD_QUARTER_TRELLEBORG_CULTURE_PER_TRADITION"/>
+		<Row ModifierId="MOD_QUARTER_LEIDANG_GOLD_PER_TRADITION"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_PURCHASE_WALL_EFFICIENCY"/>
-		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_AQUATIC_HAPPIENSS"/>
-		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_RIVER_HAPPIENSS"/>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_CULTURE_PER_TRADITION"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_GOLD_PER_TRADITION"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>

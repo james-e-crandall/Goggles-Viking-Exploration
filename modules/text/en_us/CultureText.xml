@@ -38,7 +38,12 @@
 			<Text>Snorri Sturluson</Text>
 		</Row>
 		<!-- Tradtion -->
-
+		<Row Tag="LOC_TRADITION_VIKING_BLOT_NAME">
+			<Text>Blót</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_VIKING_BLOT_DESCRIPTION">
+			<Text>Warehouse buildings have a food adjacency with Happiness buildings</Text>
+		</Row>
 
 		<!-- NODE_CIVIC_EX_VIKING_SWORD_AGE -->
 		<Row Tag="LOC_CIVIC_EX_VIKING_SWORD_AGE_NAME">
@@ -52,7 +57,12 @@
 		</Row>
 
 		<!-- Traditions -->
-
+		<Row Tag="LOC_TRADITION_VIKING_OSTARA_NAME">
+			<Text>Ostara</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_VIKING_OSTARA_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happienss on Coast and Navigable River tiles.</Text>
+		</Row>
 
 		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
 		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_NAME">

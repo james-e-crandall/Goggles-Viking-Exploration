@@ -5,10 +5,10 @@
 			<Text>Trelleborg</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_DESCRIPTION">
-			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District. +50%[icon:YIELD_GOLD] Gold to purachasing Walls.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District.+1[icon:YIELD_CULTURE] Culture for every Unique Tradition in the Government. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_TOOLTIP">
-			<Text>+2[icon:YIELD_HAPPINESS] Happienss Wall Adjacency.</Text>
+			<Text>+1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_NAME">
@@ -35,20 +35,20 @@
 			<Text>Leidang</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_DESCRIPTION">
-			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_TOOLTIP">
-			<Text>+1[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
+			<Text>+1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_NAUST_NAME">
 			<Text>Naust</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_NAUST_DESCRIPTION">
-			<Text>+5[icon:YIELD_GOLD] Gold. Restores movement to any Viking Unit at its location. Ageless.Must be placed on an on Coast or Navigable River.</Text>
+			<Text>+5[icon:YIELD_GOLD] Gold. Restores movement to any Viking Unit at its location.  Ageless. Must be placed on an on Coast or Navigable River. </Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_NAUST_TOOLTIP">
-			<Text>Viking Unique Gold Building. Restores movement to any Viking Unit at its location. Viking Unique Improvement. Ageless. Must be placed on an Coast or Navigable River.</Text>
+			<Text>Viking Unique Gold Building. Restores movement to any Viking Unit at its location. Ageless. Must be placed on an Coast or Navigable River.</Text>
 		</Row>
 
 
