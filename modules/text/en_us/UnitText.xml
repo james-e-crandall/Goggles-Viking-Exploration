@@ -11,16 +11,16 @@
 			<Text>Longboat 3</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_BASE_DESCRIPTION">
-			<Text>Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations. Can pillage tiles at range.</Text>
+			<Text>Viking Unique Naval Unit. Can pillage tiles at range. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_DESCRIPTION">
-			<Text>Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations. Can pillage tiles at range.</Text>
+			<Text>Viking Unique Naval Unit. Can pillage tiles at range. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_2_DESCRIPTION">
-			<Text>Tier 2 Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations. Can pillage tiles at range.</Text>
+			<Text>Tier 2 Viking Unique Naval Unit. Can pillage tiles at range. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_3_DESCRIPTION">
-			<Text>Tier 3 Viking Unique Naval Unit. Ideal for revealing Terrain and discovering new locations. Can pillage tiles at range.</Text>
+			<Text>Tier 3 Viking Unique Naval Unit. Can pillage tiles at range. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 
 		<!-- Abilities -->

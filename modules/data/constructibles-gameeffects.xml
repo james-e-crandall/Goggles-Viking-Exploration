@@ -9,19 +9,19 @@
 		<Argument name="CivUnique">true</Argument>
 		<Argument name="YieldType">YIELD_CULTURE</Argument>
 		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_QUARTER_FORUM_NAME</Argument>
+		<Argument name="Tooltip">LOC_QUARTER_TRELLEBORG_NAME</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_QUARTER_LEIDANG_FOOD_PER_TRADITION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_ACTIVE_TRADITION" permanent="true">
+	<Modifier id="MOD_QUARTER_LEIDANG_GOLD_PER_TRADITION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_ACTIVE_TRADITION" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_LEIDANG</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="CivUnique">true</Argument>
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_QUARTER_FORUM_NAME</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_QUARTER_LEIDANG_NAME</Argument>
 	</Modifier>
 
 	

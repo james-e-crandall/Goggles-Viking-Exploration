@@ -8,7 +8,7 @@
 			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District.+1[icon:YIELD_CULTURE] Culture for every Unique Tradition in the Government. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_TOOLTIP">
-			<Text>+1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government.</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture for every Unique Tradition in the Government.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_NAME">
@@ -38,7 +38,7 @@
 			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_TOOLTIP">
-			<Text>+1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government.</Text>
+			<Text>+2[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_NAUST_NAME">
