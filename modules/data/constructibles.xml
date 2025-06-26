@@ -64,12 +64,12 @@
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_GOLD" YieldChange="5"/>
+		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_GOLD" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_GOLD" Amount="3"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_GOLD" Amount="1"/>
-		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_HAPPINESS" Amount="1"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchForestHappiness"/>
@@ -84,7 +84,7 @@
 		<Row ID="StaveChurchForestHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
 		<Row ID="StaveChurchTiagaHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_TAIGA"/>
 		<Row ID="LonghouseCoastCulture" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
-		<Row ID="NaustResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="NaustResourceGold" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentResource="true"/>
 		<Row ID="BlotWildcardWarehouseFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentConstructibleTag="HAPPINESS"/>
 	</Adjacency_YieldChanges>
 

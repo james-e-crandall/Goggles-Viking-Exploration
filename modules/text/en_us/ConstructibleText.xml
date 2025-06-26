@@ -5,52 +5,51 @@
 			<Text>Trelleborg</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_DESCRIPTION">
-			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District. +1[icon:YIELD_GOLD] Gold Adjaceny from Rivers. Ageless.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District. +1[icon:YIELD_GOLD] Gold on each Gold adjacency from Rivers. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_TOOLTIP">
-			<Text>++1[icon:YIELD_GOLD] Gold adjacency in the Capital from Rivers.</Text>
+			<Text>+1[icon:YIELD_GOLD] Gold on each Gold adjacency from Rivers.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_NAME">
 			<Text>Stave Church</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION">
-			<Text>Grants a Great Work Slot. Additional Happiness for each adjacent Forest and Taiga Tile.</Text>
+			<Text>Grants a Great Work Slot. Grants a Great Work Slot. Grants a Great Work Slot. +1[icon:YIELD_HAPPINESS] Happiness for each adjacent Forest and Taiga Tile. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_TOOLTIP">
-			<Text>Viking Unique Happiness Building. Grants a Great Work Slot. Additional Happiness for each adjacent Forest and Taiga Tile.</Text>
+			<Text>Viking Unique Happiness Building. Ageless.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_LONGHOUSE_NAME">
 			<Text>Longhouse</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LONGHOUSE_DESCRIPTION">
-			<Text>+1[icon:YIELD_CULTURE] Culture.</Text>
+			<Text>+1[icon:YIELD_CULTURE] Culture. 1[icon:YIELD_CULTURE] Culture for each adjacent Coastal Tile.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LONGHOUSE_TOOLTIP">
-			<Text>Viking Unique Culture Building. +1[icon:YIELD_CULTURE] Culture.</Text>
+			<Text>Viking Unique Culture Building. Ageless.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_LEIDANG_NAME">
 			<Text>Leidang</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_DESCRIPTION">
-			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_GOLD] Gold Adjaceny from Coast. Ageless.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_GOLD] Gold on each Gold adjacency from Coast. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_TOOLTIP">
-			<Text>++1[icon:YIELD_GOLD] Gold adjacency in the capital from Coast.</Text>
+			<Text>+1[icon:YIELD_GOLD] Gold on each Gold adjacency from Coast.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_NAUST_NAME">
 			<Text>Naust</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_NAUST_DESCRIPTION">
-			<Text>+5[icon:YIELD_GOLD] Gold. Restores movement to any Viking Unit at its location.  Ageless. Must be placed on an on Coast or Navigable River. </Text>
+			<Text>+3[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold for each adjacent Resource. Restores movement to any Viking Unit at its location.  Ageless. Must be placed on an on Coast or Navigable River. </Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_NAUST_TOOLTIP">
-			<Text>Viking Unique Gold Building. Restores movement to any Viking Unit at its location. Ageless. Must be placed on an Coast or Navigable River.</Text>
+			<Text>Viking Unique Gold Building. Ageless.</Text>
 		</Row>
-
 
 	</EnglishText>
 </Database>

@@ -10,17 +10,11 @@
 		</SubjectRequirements>
 	</Modifier>
 
-
 	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_GOLD" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
 		<Argument name="Amount">50</Argument>
 		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
 	</Modifier>
 	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_GOLD" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
 		<Argument name="Amount">50</Argument>
 		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
 	</Modifier>
