@@ -5,10 +5,10 @@
 			<Text>Trelleborg</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_DESCRIPTION">
-			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District.+1[icon:YIELD_CULTURE] Culture for every Unique Tradition in the Government. Ageless.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Stave Church and Longhouse in the same District. +1[icon:YIELD_GOLD] Gold Adjaceny from Rivers. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_TRELLEBORG_TOOLTIP">
-			<Text>+1[icon:YIELD_CULTURE] Culture for every Unique Tradition in the Government.</Text>
+			<Text>++1[icon:YIELD_GOLD] Gold adjacency in the Capital from Rivers.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STAVE_CHURCH_NAME">
@@ -35,10 +35,10 @@
 			<Text>Leidang</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_DESCRIPTION">
-			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government. Ageless.</Text>
+			<Text>Viking Unique Quarter. Created by constructing the Naust and Fishing Quay in the same District. +1[icon:YIELD_GOLD] Gold Adjaceny from Coast. Ageless.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_LEIDANG_TOOLTIP">
-			<Text>+2[icon:YIELD_GOLD] Gold for every Unique Tradition in the Government.</Text>
+			<Text>++1[icon:YIELD_GOLD] Gold adjacency in the capital from Coast.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_NAUST_NAME">

@@ -23,8 +23,8 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_NAUST" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_NAUST_NAME" Description="LOC_BUILDING_NAUST_DESCRIPTION" Icon="ICON_BUILDING_BUILDING"/>
 	</CivilizationItems>
 	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" TagType="TAG_TRAIT_ECONOMIC"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" TagType="TAG_TRAIT_EXPANSIONIST"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" TagType="TAG_TRAIT_CULTURAL"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<!-- base -->

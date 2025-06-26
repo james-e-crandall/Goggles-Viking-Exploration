@@ -5,14 +5,6 @@
 		<Argument name="UseAdvancedPillaging">true</Argument>
 		<Argument name="Range">2</Argument>
 	</Modifier>
-	<Modifier id="ABILITY_MOD_LONGBOAT_PILLAGE_BUILDING_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">50</Argument>
-		<Argument name="PlunderTypes">PLUNDER_SCIENCE</Argument>
-	</Modifier>
-	<Modifier id="ABILITY_MOD_LONGBOAT_PILLAGE_IMPROVEMENT_SCIENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">50</Argument>
-		<Argument name="PlunderTypes">PLUNDER_SCIENCE</Argument>
-	</Modifier>
 	<!-- cultural -->
 
 	<Modifier id="MOD_LONGBOAT_NAVIGABLE_RIVER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">

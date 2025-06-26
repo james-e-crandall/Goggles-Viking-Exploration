@@ -4,7 +4,7 @@
 
 	</LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_VIKING" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_VIKING" Audio="VO_Loading_VIKING" Subtitle="LOC_LOADING_INTRO_VIKING" BackgroundImageHigh="fs://game/civ_VIKING/icons/lsbg_viking_1080" BackgroundImageLow="fs://game/goggles_civ_viking/icons/lsbg_viking_720" ForegroundImage="fs://goggles_civ_viking/icons/civ_line_viking.png" />
+		<Row CivilizationType="CIVILIZATION_VIKING" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_VIKING" Audio="VO_Loading_VIKING" Subtitle="LOC_LOADING_INTRO_VIKING" BackgroundImageHigh="fs://game/civ_VIKING/icons/lsbg_viking_1080" BackgroundImageLow="fs://game/goggles_civ_viking/icons/lsbg_viking_720" ForegroundImage="fs://goggles_civ_viking/icons/civ_line_viking.png" Tip="LOC_LOADING_CIV_TIPS_TEXT_VIKING" />
 	</LoadingInfo_Civilizations>
 
 </Database>

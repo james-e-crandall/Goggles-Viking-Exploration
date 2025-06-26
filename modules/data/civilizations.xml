@@ -25,8 +25,8 @@
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING_2"/>
 		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING_ABILITY"/>
-		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_WILDCARD"/>
-		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
 	</CivilizationTraits>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_PLAYER_IS_VIKING" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>

@@ -110,16 +110,15 @@
 	<UniqueQuarters>
 		<Row UniqueQuarterType="QUARTER_TRELLEBORG" BuildingType1="BUILDING_STAVE_CHURCH" BuildingType2="BUILDING_LONGHOUSE" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Tooltip="LOC_QUARTER_TRELLEBORG_TOOLTIP" TraitType="TRAIT_VIKING"/>
 		<Row UniqueQuarterType="QUARTER_LEIDANG" BuildingType1="BUILDING_NAUST" BuildingType2="BUILDING_FISHING_QUAY" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Tooltip="LOC_QUARTER_LEIDANG_TOOLTIP" TraitType="TRAIT_VIKING"/>
-
 	</UniqueQuarters>
 	<GameModifiers>
-		<Row ModifierId="MOD_QUARTER_TRELLEBORG_CULTURE_PER_TRADITION"/>
-		<Row ModifierId="MOD_QUARTER_LEIDANG_GOLD_PER_TRADITION"/>
+		<Row ModifierId="MOD_QUARTER_TRELLEBORG_RIVER_GOLD"/>
+		<Row ModifierId="MOD_QUARTER_LEIDANG_COAST_GOLD"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_CULTURE_PER_TRADITION"/>
-		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_GOLD_PER_TRADITION"/>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_RIVER_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_COAST_GOLD"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
