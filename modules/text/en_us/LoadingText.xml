@@ -7,5 +7,8 @@
 		<Row Tag="LOC_LOADING_INTRO_VIKING">
 			<Text>Men will know misery, adulteries be multiplied, an axe-age, a sword-age, shields will be cloven, a wind-age, a wolf-age, before the world's ruin.</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_VIKING">
+			<Text>The Viking have a economy based on Unique buidlings increasing the effetivenes of coast and rivers in addtion to Longboats pillaging Abilities.</Text>
+		</Row>
 	</EnglishText>
 </Database>

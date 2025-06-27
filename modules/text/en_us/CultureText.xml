@@ -57,12 +57,6 @@
 		</Row>
 
 		<!-- Traditions -->
-		<Row Tag="LOC_TRADITION_VIKING_OSTARA_NAME">
-			<Text>Ostara</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_VIKING_OSTARA_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happienss on Coast and Navigable River tiles.</Text>
-		</Row>
 
 		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
 		<Row Tag="LOC_CIVIC_EX_VIKING_WOLF_AGE_NAME">

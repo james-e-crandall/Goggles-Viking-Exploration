@@ -20,26 +20,6 @@
 		<String context="Description">LOC_TRADITION_VIKING_BLOT_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="MOD_TRADITION_VIKING_OSTRA_AQUATIC_HAPPIENSS" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IS_COAST" />
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_TRADITION_VIKING_OSTRA_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_TRADITION_VIKING_OSTRA_RIVER_HAPPIENSS" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
-				<Argument name="TerrainType">TERRAIN_NAVIGABLE_RIVER</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_TRADITION_VIKING_OSTRA_DESCRIPTION</String>
-	</Modifier>
-
 	<Modifier id="MOD_TRADITION_VIKING_NORTH_SEA_EMPIRE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="ConstructibleType">BUILDING_MEDIEVAL_WALLS, BUILDING_ANCIENT_WALLS</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>

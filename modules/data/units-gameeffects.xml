@@ -78,6 +78,32 @@
 		<String context="Description">LOC_ABILITY_LONGBOAT_MOVEMENT_LAKE_DESCRIPTION</String>
 	</Modifier>
 
+	<!-- cultural range -->
+	<Modifier id="MOD_LONGBOAT_ATTACK_RANGE_RIVER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_LONGBOAT</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
+				<Argument name="TerrainType">TERRAIN_NAVIGABLE_RIVER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_LONGBOAT_ATTACK_RANGE</Argument>
+		<String context="Description">LOC_MOD_LONGBOAT_ATTACK_RANGE_RIVER_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_LONGBOAT_ATTACK_RANGE_LAKE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_LONGBOAT</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_IS_LAKE" />
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_LONGBOAT_ATTACK_RANGE</Argument>
+		<String context="Description">LOC_MOD_LONGBOAT_ATTACK_RANGE_LAKE_DESCRIPTION</String>
+	</Modifier>
 
+	<Modifier id="ABILITY_MOD_LONGBOAT_ATTACK_RANGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_ATTACK_RANGE">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
 
 </GameEffects>

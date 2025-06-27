@@ -26,10 +26,10 @@
 		<!-- Abilities -->
 
 		<Row Tag="LOC_MOD_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION">
-			<Text>+10 Combat Strength on Navigable River Tiles</Text>
+			<Text>Longboat has +10 Combat Strength on Navigable River Tiles</Text>
 		</Row>
 		<Row Tag="LOC_MOD_LONGBOAT_LAKE_DESCRIPTION">
-			<Text>+10 Combat Strength on Lake Tiles</Text>
+			<Text>Longboat has +10 Combat Strength on Lake Tiles</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_MOD_LONGBOAT_COMBAT_STRENGTH_PREVIEW">
 			<Text>+{1_Amount} Navigable River or Lake</Text>
@@ -47,7 +47,12 @@
 			<Text>Longboats have +1 Movement on Lake Tiles</Text>
 		</Row>
 
-
+		<Row Tag="LOC_MOD_LONGBOAT_ATTACK_RANGE_RIVER_DESCRIPTION">
+			<Text>Longboat has +1 Ranged Attack Distance on Navigable River Tiles.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_LONGBOAT_ATTACK_RANGE_LAKE_DESCRIPTION">
+			<Text>Longboat has +1 Ranged Attack Distance on Lake Tiles.</Text>
+		</Row>
 
 
 	</EnglishText>

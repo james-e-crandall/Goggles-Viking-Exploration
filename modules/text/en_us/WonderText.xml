@@ -16,9 +16,7 @@
 		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_JELLING_STONES">
 			<Text>King Haraldr</Text>
 		</Row>
-		<!-- <Row Tag="LOC_ABILITY_JELLING_STONES_COMBAT_PREVIEW">
-			<Text>+{1_Value} Combat Strength for Infantry Units during a Celebration</Text>
-		</Row> -->
+
 
     </EnglishText>
 </Database>

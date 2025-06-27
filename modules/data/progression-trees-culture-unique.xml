@@ -43,8 +43,10 @@
 		<!-- NODE_CIVIC_EX_VIKING_SWORD_AGE -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_NAVIGABLE_RIVER" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_LAKE" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_TRADITION" TargetType="TRADITION_VIKING_OSTRA" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_ATTACK_RANGE_RIVER" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_LONGBOAT_ATTACK_RANGE_LAKE" UnlockDepth="2"/>
+
 
 		<!-- NODE_CIVIC_EX_VIKING_WOLF_AGE -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" TargetKind="KIND_MODIFIER" TargetType="MOD_WOLF_AGE_MOD_HAPPINESS_GOLD" UnlockDepth="1"/>
@@ -58,7 +60,11 @@
 		<Row Node="NODE_CIVIC_EX_VIKING_WOLF_AGE" PrereqNode="NODE_CIVIC_EX_VIKING_SWORD_AGE"/>
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>
-
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WIND_AGE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_AXE_AGE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_SWORD_AGE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VIKING_WOLF_AGE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
 	</ProgressionTree_Advisories>
 	<UnitClass_Abilities>
 

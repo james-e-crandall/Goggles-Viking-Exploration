@@ -35,21 +35,18 @@
 	<ConstructibleModifiers>
 		<!-- Wonders -->
 		 <Row ConstructibleType="WONDER_JELLING_STONES" ModifierId="WONDER_JELLING_STONES_MOD_ABILITY_SETTLER_MOVEMENT"/>
-		 <!-- <Row ConstructibleType="WONDER_JELLING_STONES" ModifierId="WONDER_JELLING_STONES_MOD_ABILITY_GOLDEN_AGE"/> -->
     </ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_JELLING_STONES" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
     </Constructible_Advisories>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_JELLING_STONES" Inactive="true" Name="LOC_WONDER_JELLING_STONES_NAME" Description="LOC_WONDER_JELLING_STONES_DESCRIPTION"/>
-		<!-- <Row UnitAbilityType="ABILITY_JELLING_STONES_GOLDEN_AGE" Inactive="true" Name="LOC_WONDER_JELLING_STONES_NAME" Description="LOC_WONDER_JELLING_STONES_DESCRIPTION"/> -->
 	</UnitAbilities>
 	<UnitClass_Abilities>
 	</UnitClass_Abilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_JELLING_STONES" ModifierId="WONDER_JELLING_STONES_MOVEMENT"/>
 		<Row UnitAbilityType="ABILITY_JELLING_STONES" ModifierId="WONDER_JELLING_STONES_EMBARKED_MOVEMENT"/>
-		<!-- <Row UnitAbilityType="ABILITY_JELLING_STONES_GOLDEN_AGE" ModifierId="WONDER_JELLING_STONES_MOD_ADJUST_STRENGTH"/> -->
 	</UnitAbilityModifiers>
 
 </Database>

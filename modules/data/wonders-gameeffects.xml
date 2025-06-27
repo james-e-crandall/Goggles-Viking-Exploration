@@ -8,35 +8,16 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_JELLING_STONES</Argument>
-		<String context="Description">LOC_ABILITY_JELLING_STONES_DESCRIPTION</String>
+		<String context="Description">LOC_WONDER_JELLING_STONES_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="WONDER_JELLING_STONES_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
 		<Argument name="Amount">1</Argument>
-		<String context="Preview">ABILITY_JELLING_STONES_DESCRIPTION</String>
+		<String context="Preview">LOC_WONDER_JELLING_STONES_TOOLTIP</String>
 	</Modifier>
 	<Modifier id="WONDER_JELLING_STONES_EMBARKED_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
 		<Argument name="Amount">1</Argument>
-		<String context="Preview">ABILITY_JELLING_STONES_DESCRIPTION</String>
+		<String context="Preview">LOC_WONDER_JELLING_STONES_TOOLTIP</String>
 	</Modifier>
-
-	<!-- <Modifier id="WONDER_JELLING_STONES_MOD_ABILITY_GOLDEN_AGE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_JELLING_STONES_GOLDEN_AGE</Argument>
-	</Modifier>
-
-	<Modifier id="WONDER_JELLING_STONES_MOD_ADJUST_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_ABILITY_JELLING_STONES_COMBAT_PREVIEW</String>
-	</Modifier> -->
-
-
 
 </GameEffects>
