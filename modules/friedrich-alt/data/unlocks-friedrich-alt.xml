@@ -2,10 +2,10 @@
 <Database>
 
 	<UnlockRequirements>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" RequirementSetId="REQSET_LEADER_IS_FRIEDRICH_ALT" Description="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING_JEC" RequirementSetId="REQSET_LEADER_IS_FRIEDRICH_ALT" Description="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP"/>
     </UnlockRequirements>
 
 	<LegacyLeaderCivPriorities>
-		<Row Leader="LEADER_FRIEDRICH_ALT" CivilizationType="CIVILIZATION_VIKING"/>
+		<Row Leader="LEADER_FRIEDRICH_ALT" CivilizationType="CIVILIZATION_VIKING_JEC"/>
 	</LegacyLeaderCivPriorities>
 </Database>

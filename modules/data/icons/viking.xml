@@ -3,35 +3,35 @@
     <IconDefinitions>
         <!-- Civ Symbol-->
         <Row>
-            <ID>CIVILIZATION_VIKING</ID>
-            <Path>fs://game/goggles_civ_viking/icons/civ_sym_viking</Path>
+            <ID>CIVILIZATION_VIKING_JEC</ID>
+            <Path>fs://game/goggles_civ_viking/icons/civ_sym_viking_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>ICON_CIVILIZATION_VIKING</ID>
-            <Path>fs://game/goggles_civ_viking/icons/civ_sym_viking</Path>
+			<ID>ICON_CIVILIZATION_VIKING_JEC</ID>
+            <Path>fs://game/goggles_civ_viking/icons/civ_sym_viking_jec</Path>
 		</Row>
         <!-- Loadscreen -->
 		<Row>
-			<ID>CIVILIZATION_VIKING</ID>
+			<ID>CIVILIZATION_VIKING_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_viking/icons/lsbg_viking_1080</Path>
+			<Path>fs://game/goggles_civ_viking/icons/lsbg_viking_jec_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_VIKING</ID>
+			<ID>CIVILIZATION_VIKING_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_viking/iconslsbg_viking_720</Path>
+			<Path>fs://game/goggles_civ_viking/iconslsbg_viking_jec_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <!-- Culture -->
         <Row>
             <ID>cult_viking</ID>
-            <Path>fs://game/goggles_civ_viking/icons/cult_viking.png</Path>
+            <Path>fs://game/goggles_civ_viking/icons/cult_viking_jec.png</Path>
         </Row> 
         <Row>
             <ID>civ_line_viking</ID>
-            <Path>fs://game/goggles_civ_viking/icons/civ_line_viking.png</Path>
+            <Path>fs://game/goggles_civ_viking/icons/civ_line_viking_jec.png</Path>
         </Row> 
         <!-- Buildings -->
 		<Row>
@@ -39,34 +39,34 @@
 			<Path>fs://game/goggles_civ_viking/icons/wondericon_jelling_stones.png</Path>
 		</Row>
         <Row>
-            <ID>BUILDING_STAVE_CHURCH</ID>
-            <Path>fs://game/goggles_civ_viking/icons/buildicon_stave_church.png</Path>
+            <ID>BUILDING_STAVE_CHURCH_JEC</ID>
+            <Path>fs://game/goggles_civ_viking/icons/buildicon_stave_church_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>BUILDING_LONGHOUSE</ID>
-            <Path>fs://game/goggles_civ_viking/icons/buildicon_longhouse.png</Path>
+            <ID>BUILDING_LONGHOUSE_JEC</ID>
+            <Path>fs://game/goggles_civ_viking/icons/buildicon_longhouse_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>BUILDING_NAUST</ID>
-            <Path>fs://game/goggles_civ_viking/icons/buildicon_naust.png</Path>
+            <ID>BUILDING_NAUST_JEC</ID>
+            <Path>fs://game/goggles_civ_viking/icons/buildicon_naust_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <!-- UU AND UI -->
         <Row>
-            <ID>UNIT_LONGBOAT</ID>
-            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
+            <ID>UNIT_LONGBOAT_JEC</ID>
+            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_LONGBOAT_2</ID>
-            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
+            <ID>UNIT_LONGBOAT_JEC_2</ID>
+            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_LONGBOAT_3</ID>
-            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat.png</Path>
+            <ID>UNIT_LONGBOAT_JEC_3</ID>
+            <Path>fs://game/goggles_civ_viking/icons/unitflag_longboat_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
     </IconDefinitions>

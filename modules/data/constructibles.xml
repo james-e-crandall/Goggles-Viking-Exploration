@@ -2,9 +2,9 @@
 <Database>  
 	<Types>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_STAVE_CHURCH" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="BUILDING_LONGHOUSE" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="BUILDING_NAUST" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_STAVE_CHURCH_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_LONGHOUSE_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_NAUST_JEC" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
@@ -12,40 +12,40 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" Name="LOC_BUILDING_STAVE_CHURCH_NAME" Description="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Tooltip="LOC_BUILDING_STAVE_CHURCH_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" Name="LOC_BUILDING_LONGHOUSE_NAME" Description="LOC_BUILDING_LONGHOUSE_DESCRIPTION" Tooltip="LOC_BUILDING_LONGHOUSE_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
-		<Row ConstructibleType="BUILDING_NAUST" Name="LOC_BUILDING_NAUST_NAME" Description="LOC_BUILDING_NAUST_DESCRIPTION" Tooltip="LOC_BUILDING_NAUST_TOOLTIP" ConstructibleClass="BUILDING" RiverPlacement="ANCHORED" Cost="90" Population="1" MilitaryDomain="DOMAIN_SEA" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" Name="LOC_BUILDING_STAVE_CHURCH_JEC_NAME" Description="LOC_BUILDING_STAVE_CHURCH_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_STAVE_CHURCH_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" Name="LOC_BUILDING_LONGHOUSE_JEC_NAME" Description="LOC_BUILDING_LONGHOUSE_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_LONGHOUSE_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" Name="LOC_BUILDING_NAUST_JEC_NAME" Description="LOC_BUILDING_NAUST_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_NAUST_JEC_TOOLTIP" ConstructibleClass="BUILDING" RiverPlacement="ANCHORED" Cost="90" Population="1" MilitaryDomain="DOMAIN_SEA" Age="AGE_EXPLORATION"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
-		<Row ConstructibleType="BUILDING_NAUST" Movable="false" Town="true" TraitType="TRAIT_VIKING"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" Movable="false" Town="true" TraitType="TRAIT_VIKING_JEC"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" Movable="false" Town="true" TraitType="TRAIT_VIKING_JEC"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" Movable="false" Town="true" TraitType="TRAIT_VIKING_JEC"/>
 	</Buildings>
 	<Improvements>
 	</Improvements>
 	<Wonders>
 	</Wonders>
 	<TypeTags>
-		<Row Type="BUILDING_STAVE_CHURCH" Tag="HAPPINESS"/>
-		<Row Type="BUILDING_STAVE_CHURCH" Tag="UNIQUE"/>
-		<Row Type="BUILDING_STAVE_CHURCH" Tag="AGELESS"/>
-		<Row Type="BUILDING_LONGHOUSE" Tag="CULTURE"/>
-		<Row Type="BUILDING_LONGHOUSE" Tag="UNIQUE"/>
-		<Row Type="BUILDING_LONGHOUSE" Tag="AGELESS"/>
-		<Row Type="BUILDING_NAUST" Tag="GOLD"/>
-		<Row Type="BUILDING_NAUST" Tag="UNIQUE"/>
-		<Row Type="BUILDING_NAUST" Tag="AGELESS"/>
-		<Row Type="BUILDING_NAUST" Tag="WATER"/>
+		<Row Type="BUILDING_STAVE_CHURCH_JEC" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_STAVE_CHURCH_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_STAVE_CHURCH_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_LONGHOUSE_JEC" Tag="CULTURE"/>
+		<Row Type="BUILDING_LONGHOUSE_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_LONGHOUSE_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_NAUST_JEC" Tag="GOLD"/>
+		<Row Type="BUILDING_NAUST_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_NAUST_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_NAUST_JEC" Tag="WATER"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH"  DistrictType="DISTRICT_URBAN"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE"  DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE"  DistrictType="DISTRICT_URBAN"/>
-		<Row ConstructibleType="BUILDING_NAUST"  DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_NAUST"  DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC"  DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC"  DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC"  DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC"  DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC"  DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
 	</District_FreeConstructibles>
@@ -54,31 +54,31 @@
 	<Constructible_InvalidAdjacentBiomes>
 	</Constructible_InvalidAdjacentBiomes>
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="BUILDING_NAUST" TerrainType="TERRAIN_COAST"/>
-		<Row ConstructibleType="BUILDING_NAUST" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" TerrainType="TERRAIN_COAST"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
 	</Constructible_ValidTerrains>
 	<AgeConstructibleDefaultYields>
 	</AgeConstructibleDefaultYields>
 	<AgeConstructibleDefaultMaintenances>
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" YieldType="YIELD_GOLD" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldType="YIELD_GOLD" Amount="3"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldType="YIELD_GOLD" Amount="3"/>
-		<Row ConstructibleType="BUILDING_NAUST" YieldType="YIELD_HAPPINESS" Amount="1"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" YieldType="YIELD_HAPPINESS" Amount="1"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchForestHappiness"/>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH" YieldChangeId="StaveChurchTiagaHappiness"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="LonghouseCoastCulture"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="MountainCulture"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="NaturalWonderCulture"/>
-		<Row ConstructibleType="BUILDING_LONGHOUSE" YieldChangeId="WonderCulture"/>
-		<Row ConstructibleType="BUILDING_NAUST" YieldChangeId="NaustResourceGold"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldChangeId="StaveChurchForestHappiness"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldChangeId="StaveChurchTiagaHappiness"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldChangeId="LonghouseCoastCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldChangeId="MountainCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldChangeId="NaturalWonderCulture"/>
+		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldChangeId="WonderCulture"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" YieldChangeId="NaustResourceGold"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="StaveChurchForestHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
@@ -102,14 +102,14 @@
 
 	</Constructible_Logistics>
 	<Constructible_Plunders>
-		<Row ConstructibleType="BUILDING_NAUST" PlunderType="PLUNDER_HEAL" Amount="30"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" PlunderType="PLUNDER_HEAL" Amount="30"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
 
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_TRELLEBORG" BuildingType1="BUILDING_STAVE_CHURCH" BuildingType2="BUILDING_LONGHOUSE" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Tooltip="LOC_QUARTER_TRELLEBORG_TOOLTIP" TraitType="TRAIT_VIKING"/>
-		<Row UniqueQuarterType="QUARTER_LEIDANG" BuildingType1="BUILDING_NAUST" BuildingType2="BUILDING_FISHING_QUAY" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Tooltip="LOC_QUARTER_LEIDANG_TOOLTIP" TraitType="TRAIT_VIKING"/>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" BuildingType1="BUILDING_STAVE_CHURCH_JEC" BuildingType2="BUILDING_LONGHOUSE_JEC" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Tooltip="LOC_QUARTER_TRELLEBORG_TOOLTIP" TraitType="TRAIT_VIKING_JEC"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" BuildingType1="BUILDING_NAUST_JEC" BuildingType2="BUILDING_FISHING_QUAY" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Tooltip="LOC_QUARTER_LEIDANG_TOOLTIP" TraitType="TRAIT_VIKING_JEC"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<Row ModifierId="MOD_QUARTER_TRELLEBORG_RIVER_GOLD"/>
@@ -121,9 +121,9 @@
 		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_COAST_GOLD"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
-		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
-		<Row ConstructibleType="BUILDING_NAUST" AdvisoryClassType="ADVISORY_CLASS_SEA"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" AdvisoryClassType="ADVISORY_CLASS_SEA"/>
 	</Constructible_Advisories>
 
 </Database>

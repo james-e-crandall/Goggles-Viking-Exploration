@@ -5,113 +5,113 @@
 		VIKING
 		e ð Á ð ó ý á ó úð
 		-->
-		<Row Tag="LOC_CITY_NAME_VIKING1">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC1">
 			<Text>Þingvellr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING2">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC2">
 			<Text>Austfirðir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING3">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC3">
 			<Text>Álptanes</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING4">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC4">
 			<Text>Árnes </Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING5">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC5">
 			<Text>Bleking</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING6">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC6">
 			<Text>Borgarfjerðrm</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING7">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC7">
 			<Text>Breiðafjarðardalir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING8">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC8">
 			<Text>Breiðafjerðr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING9">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC9">
 			<Text>Drepstokkr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING10">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC10">
 			<Text>Egilsstaðir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING11">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC11">
 			<Text>Eiríksfjerðr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING12">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC12">
 			<Text>Eystribyggð</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING13">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC13">
 			<Text>Fjón</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING14">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC14">
 			<Text>Gjallarbrú</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING15">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC15">
 			<Text>Hafrsfjerðrm</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING16">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC16">
 			<Text>Hasvimýrar</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING17">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC17">
 			<Text>Orkneyjar</Text>
 		</Row>
 
-		<Row Tag="LOC_CITY_NAME_VIKING18">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC18">
 			<Text>Rangárvellir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING19">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC19">
 			<Text>Raumaríki</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING20">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC20">
 			<Text>Refsstaðir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING21">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC21">
 			<Text>Síreksstaðir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING22">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC22">
 			<Text>Sjáland</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING23">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC23">
 			<Text>Skáney</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING24">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC24">
 			<Text>Smjervatnsheiðr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING25">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC25">
 			<Text>Sóknadalr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING26">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC26">
 			<Text>Stiklastaðir</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING27">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC27">
 			<Text>Sunnudalrm</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING28">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC28">
 			<Text>Súðvirki</Text>
 		</Row>	
-		<Row Tag="LOC_CITY_NAME_VIKING29">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC29">
 			<Text>Toptavellrm</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING30">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC30">
 			<Text>Upplend</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING31">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC31">
 			<Text>Uppsalir</Text>
 		</Row>	
-		<Row Tag="LOC_CITY_NAME_VIKING32">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC32">
 			<Text>Vágr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING33">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC33">
 			<Text>Vestfoldf</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING34">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC34">
 			<Text>Vestribyggð</Text>
 		</Row>		
-		<Row Tag="LOC_CITY_NAME_VIKING35">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC35">
 			<Text>Þrœndaleg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_VIKING36">
+		<Row Tag="LOC_CITY_NAME_VIKING_JEC36">
 			<Text>Øxarfjerðrm</Text>
 		</Row>		
 	</EnglishText>

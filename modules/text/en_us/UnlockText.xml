@@ -27,6 +27,9 @@
 			<Text>[B]Friedrich[/B] was from the same continent as the [B]Vikings[/B].</Text>
 		</Row>
 
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VIKING_RUSSIA_TOOLTIP">
+			<Text>[B]Vikings[/B] influenced the development of [B]Russia[/B].</Text>
+		</Row>
 
 	</EnglishText>
 </Database>

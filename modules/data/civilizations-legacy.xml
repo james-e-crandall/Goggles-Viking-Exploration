@@ -2,23 +2,23 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_VIKING" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_VIKING_2" Kind="KIND_TRAIT"/>
-		<Row Type="CIVILIZATION_VIKING" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_VIKING_JEC" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_VIKING_JEC_2" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_VIKING_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_VIKING" Name="LOC_CIVILIZATION_VIKING_NAME" FullName="LOC_CIVILIZATION_VIKING_FULLNAME" Adjective="LOC_CIVILIZATION_VIKING_ADJECTIVE" Age="AGE_EXPLORATION"/>
+		<Row CivilizationType="CIVILIZATION_VIKING_JEC" Name="LOC_CIVILIZATION_VIKING_JEC_NAME" FullName="LOC_CIVILIZATION_VIKING_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_VIKING_JEC_ADJECTIVE" Age="AGE_EXPLORATION"/>
 	</LegacyCivilizations>
 	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_VIKING" TraitType="TRAIT_VIKING"/>
+		<Row CivilizationType="CIVILIZATION_VIKING_JEC" TraitType="TRAIT_VIKING_JEC"/>
 	</LegacyCivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_VIKING" InternalOnly="true"/>
-		<Row TraitType="TRAIT_VIKING_2" InternalOnly="true"/>
+		<Row TraitType="TRAIT_VIKING_JEC" InternalOnly="true"/>
+		<Row TraitType="TRAIT_VIKING_JEC_2" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
-		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_VIKING"/>
-		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_VIKING"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_VIKING_JEC"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_VIKING_JEC"/>
 	</LegacyLeaderCivPriorities>
 </Database>

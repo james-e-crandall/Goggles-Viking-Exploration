@@ -11,43 +11,43 @@
 	<LeaderCivilizationBias>
 	</LeaderCivilizationBias>
 	<Civilizations>
-		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" CivilizationName="LOC_CIVILIZATION_VIKING_NAME" CivilizationFullName="LOC_CIVILIZATION_VIKING_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_VIKING_DESCRIPTION" CivilizationIcon="civ_sym_viking.png"/>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" CivilizationName="LOC_CIVILIZATION_VIKING_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_VIKING_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_VIKING_JEC_DESCRIPTION" CivilizationIcon="civ_sym_viking_jec.png"/>
 	</Civilizations>
 	<CivilizationItems>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="TRAIT_VIKING_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_VIKING_ABILITY_NAME" Description="LOC_TRAIT_VIKING_ABILITY_DESCRIPTION"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="UNIT_LONGBOAT" Kind="KIND_UNIT" Name="LOC_UNIT_LONGBOAT_NAME" Description="LOC_UNIT_LONGBOAT_DESCRIPTION" Icon="ICON_UNIT_LONGBOAT"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="QUARTER_TRELLEBORG" Kind="KIND_QUARTER" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Icon="city_uniquequarter"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_STAVE_CHURCH" Kind="KIND_BUILDING" Name="LOC_BUILDING_STAVE_CHURCH_NAME" Description="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Icon="ICON_BUILDING_STAVE_CHURCH"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_LONGHOUSE" Kind="KIND_BUILDING" Name="LOC_BUILDING_LONGHOUSE_NAME" Description="LOC_BUILDING_LONGHOUSE_DESCRIPTION" Icon="ICON_BUILDING_LONGHOUSE"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="QUARTER_LEIDANG" Kind="KIND_QUARTER" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Icon="city_uniquequarter"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" Type="BUILDING_NAUST" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_NAUST_NAME" Description="LOC_BUILDING_NAUST_DESCRIPTION" Icon="ICON_BUILDING_BUILDING"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="TRAIT_VIKING_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_VIKING_JEC_ABILITY_NAME" Description="LOC_TRAIT_VIKING_JEC_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="UNIT_LONGBOAT_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_LONGBOAT_JEC_NAME" Description="LOC_UNIT_LONGBOAT_JEC_DESCRIPTION" Icon="ICON_UNIT_LONGBOAT_JEC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="QUARTER_TRELLEBORG" Kind="KIND_QUARTER" Name="LOC_QUARTER_TRELLEBORG_NAME" Description="LOC_QUARTER_TRELLEBORG_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="BUILDING_STAVE_CHURCH_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_STAVE_CHURCH_JEC_NAME" Description="LOC_BUILDING_STAVE_CHURCH_JEC_DESCRIPTION" Icon="ICON_BUILDING_STAVE_CHURCH_JEC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="BUILDING_LONGHOUSE_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_LONGHOUSE_JEC_NAME" Description="LOC_BUILDING_LONGHOUSE_JEC_DESCRIPTION" Icon="ICON_BUILDING_LONGHOUSE_JEC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="QUARTER_LEIDANG" Kind="KIND_QUARTER" Name="LOC_QUARTER_LEIDANG_NAME" Description="LOC_QUARTER_LEIDANG_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" Type="BUILDING_NAUST_JEC" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_NAUST_JEC_NAME" Description="LOC_BUILDING_NAUST_JEC_DESCRIPTION" Icon="ICON_BUILDING_BUILDING"/>
 	</CivilizationItems>
 	<CivilizationTags>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" TagType="TAG_TRAIT_ECONOMIC"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" TagType="TAG_TRAIT_EXPANSIONIST"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<!-- base -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<!-- DLC -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" LeaderDomain="StandardLeaders" LeaderType="LEADER_JOE_TEST" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_JOE_TEST" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_VIKING_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		
 	</LeaderCivilizationBias>
 	<LeaderUnlocks>
 		<!-- Base -->
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_NAME" Description="LOC_CIVILIZATION_VIKING_DESCRIPTION" Icon="CIVILIZATION_VIKING"/>
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_NAME" Description="LOC_CIVILIZATION_VIKING_DESCRIPTION" Icon="CIVILIZATION_VIKING"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_JEC_NAME" Description="LOC_CIVILIZATION_VIKING_JEC_DESCRIPTION" Icon="CIVILIZATION_VIKING_JEC"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_JEC_NAME" Description="LOC_CIVILIZATION_VIKING_JEC_DESCRIPTION" Icon="CIVILIZATION_VIKING_JEC"/>
 		<!-- DLC -->
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_NAME" Description="LOC_CIVILIZATION_VIKING_DESCRIPTION" Icon="CIVILIZATION_VIKING"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_JEC_NAME" Description="LOC_CIVILIZATION_VIKING_JEC_DESCRIPTION" Icon="CIVILIZATION_VIKING_JEC"/>
 	</LeaderUnlocks>
 	<CivilizationUnlocks>
 		<!-- AntiquityAgeCivilizations -->
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_NAME" Description="LOC_CIVILIZATION_VIKING_DESCRIPTION" Icon="CIVILIZATION_VIKING"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VIKING_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VIKING_JEC_NAME" Description="LOC_CIVILIZATION_VIKING_JEC_DESCRIPTION" Icon="CIVILIZATION_VIKING_JEC"/>
 		<!-- ExplorationAgeCivilizations -->
 		<!-- ModernAgeCivilizations -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_RUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_RUSSIA_NAME" Description="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Icon="CIVILIZATION_RUSSIA"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VIKING_JEC" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_RUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_RUSSIA_NAME" Description="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Icon="CIVILIZATION_RUSSIA"/>
 	</CivilizationUnlocks>
 	<LeaderUnlocks>
 	</LeaderUnlocks>

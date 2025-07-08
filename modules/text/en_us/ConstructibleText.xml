@@ -11,23 +11,23 @@
 			<Text>+1[icon:YIELD_GOLD] Gold on each Gold adjacency from Rivers.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_STAVE_CHURCH_NAME">
+		<Row Tag="LOC_BUILDING_STAVE_CHURCH_JEC_NAME">
 			<Text>Stave Church</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_STAVE_CHURCH_JEC_DESCRIPTION">
 			<Text>Grants a Great Work Slot. Grants a Great Work Slot. Grants a Great Work Slot. +1[icon:YIELD_HAPPINESS] Happiness for each adjacent Forest and Taiga Tile. Ageless.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_STAVE_CHURCH_TOOLTIP">
+		<Row Tag="LOC_BUILDING_STAVE_CHURCH_JEC_TOOLTIP">
 			<Text>Viking Unique Happiness Building. Ageless.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_LONGHOUSE_NAME">
+		<Row Tag="LOC_BUILDING_LONGHOUSE_JEC_NAME">
 			<Text>Longhouse</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_LONGHOUSE_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_LONGHOUSE_JEC_DESCRIPTION">
 			<Text>+1[icon:YIELD_CULTURE] Culture. 1[icon:YIELD_CULTURE] Culture for each adjacent Coastal Tile.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_LONGHOUSE_TOOLTIP">
+		<Row Tag="LOC_BUILDING_LONGHOUSE_JEC_TOOLTIP">
 			<Text>Viking Unique Culture Building. Ageless.</Text>
 		</Row>
 
@@ -41,13 +41,13 @@
 			<Text>+1[icon:YIELD_GOLD] Gold on each Gold adjacency from Coast.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_NAUST_NAME">
+		<Row Tag="LOC_BUILDING_NAUST_JEC_NAME">
 			<Text>Naust</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_NAUST_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_NAUST_JEC_DESCRIPTION">
 			<Text>+3[icon:YIELD_GOLD] Gold. +1[icon:YIELD_GOLD] Gold for each adjacent Resource. Restores movement to any Viking Unit at its location.  Ageless. Must be placed on an on Coast or Navigable River. </Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_NAUST_TOOLTIP">
+		<Row Tag="LOC_BUILDING_NAUST_JEC_TOOLTIP">
 			<Text>Viking Unique Gold Building. Ageless.</Text>
 		</Row>
 

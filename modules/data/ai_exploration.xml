@@ -18,21 +18,21 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- Viking -->
-		<Row ListType="Viking Unit Biases" LeaderType="TRAIT_VIKING" System="UnitBiases"/>
-		<Row ListType="Viking Government Bias" LeaderType="TRAIT_VIKING" System="GovernmentBiases"/>
-		<Row ListType="Viking Constructibles Biases" LeaderType="TRAIT_VIKING" System="ConstructibleBiases" />	
-		<Row ListType="Viking Budget Biases" LeaderType="TRAIT_VIKING" System="AiBudgetBiases"/>	
-		<Row ListType="Viking PseudoYield Biases" LeaderType="TRAIT_VIKING" System="PseudoYieldBiases"/>	
+		<Row ListType="Viking Unit Biases" LeaderType="TRAIT_VIKING_JEC" System="UnitBiases"/>
+		<Row ListType="Viking Government Bias" LeaderType="TRAIT_VIKING_JEC" System="GovernmentBiases"/>
+		<Row ListType="Viking Constructibles Biases" LeaderType="TRAIT_VIKING_JEC" System="ConstructibleBiases" />	
+		<Row ListType="Viking Budget Biases" LeaderType="TRAIT_VIKING_JEC" System="AiBudgetBiases"/>	
+		<Row ListType="Viking PseudoYield Biases" LeaderType="TRAIT_VIKING_JEC" System="PseudoYieldBiases"/>	
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Viking -->
-		<Row ListType="Viking Constructibles Biases" Item="BUILDING_STAVE_CHURCH" Value="200" />
-		<Row ListType="Viking Constructibles Biases" Item="BUILDING_LONGHOUSE" Value="200" />
-		<Row ListType="Viking Constructibles Biases" Item="BUILDING_NAUST" Value="200" />
+		<Row ListType="Viking Constructibles Biases" Item="BUILDING_STAVE_CHURCH_JEC" Value="200" />
+		<Row ListType="Viking Constructibles Biases" Item="BUILDING_LONGHOUSE_JEC" Value="200" />
+		<Row ListType="Viking Constructibles Biases" Item="BUILDING_NAUST_JEC" Value="200" />
 		<Row ListType="Viking Constructibles Biases" Item="BUILDING_FISHING_QUAY" Value="200" />
-		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT" Value="50"/>
-		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_2" Value="50"/>
-		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_3" Value="50"/>
+		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_JEC" Value="50"/>
+		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_JEC_2" Value="50"/>
+		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_JEC_3" Value="50"/>
 
 	</AiFavoredItems>
 	<!-- City Strategies -->

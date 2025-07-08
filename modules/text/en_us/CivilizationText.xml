@@ -2,28 +2,28 @@
 <Database>
 	<EnglishText>
 		<!--VIKING Names-->
-		<Row Tag="LOC_CIVILIZATION_VIKING_NAME">
+		<Row Tag="LOC_CIVILIZATION_VIKING_JEC_NAME">
 			<Text>Viking</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_VIKING_FULLNAME">
+		<Row Tag="LOC_CIVILIZATION_VIKING_JEC_FULLNAME">
 			<Text>Viking Exploration Age Civilization</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_VIKING_DESCRIPTION">
 			<Text>Viking Exploration Age Civilization</Text>
 		</Row>
 		<!--Civilization Adjectives-->
-		<Row Tag="LOC_CIVILIZATION_VIKING_ADJECTIVE">
+		<Row Tag="LOC_CIVILIZATION_VIKING_JEC_ADJECTIVE">
 			<Text>Viking</Text>
 			<Gender>Masculine:an</Gender>
 		</Row>
 		<!--VIKING Ability-->
-		<Row Tag="LOC_TRAIT_VIKING_ABILITY_NAME">
+		<Row Tag="LOC_TRAIT_VIKING_JEC_ABILITY_NAME">
 			<Text>Fornaldarsaga</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_VIKING_ABILITY_DESCRIPTION">
+		<Row Tag="LOC_TRAIT_VIKING_JEC_ABILITY_DESCRIPTION">
 			<Text>Can only have 1 City. Towns cannot use Convert to City. Army Commanders and Fleet Commanders start with the Looting promotion.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_VIKING_DESCRIPTION">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_VIKING_JEC_DESCRIPTION">
 			<Text>[LIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI][B]Army Commanders[/B] and [B]Fleet Commanders[/B] start with the [B]Looting[/B] promotion.[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Trelleborg[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_VIKING_DESCRIPTION">

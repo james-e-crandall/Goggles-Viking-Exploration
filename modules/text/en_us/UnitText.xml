@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_UNIT_LONGBOAT_NAME">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_NAME">
 			<Text>Longboat</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LONGBOAT_2_NAME">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_2_NAME">
 			<Text>Longboat 2</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LONGBOAT_3_NAME">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_3_NAME">
 			<Text>Longboat 3</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LONGBOAT_BASE_DESCRIPTION">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_BASE_DESCRIPTION">
 			<Text>Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LONGBOAT_DESCRIPTION">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_DESCRIPTION">
 			<Text>Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LONGBOAT_2_DESCRIPTION">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_2_DESCRIPTION">
 			<Text>Tier 2 Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LONGBOAT_3_DESCRIPTION">
+		<Row Tag="LOC_UNIT_LONGBOAT_JEC_3_DESCRIPTION">
 			<Text>Tier 3 Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 

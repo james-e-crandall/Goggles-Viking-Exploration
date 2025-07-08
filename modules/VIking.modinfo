@@ -106,18 +106,18 @@
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
-					<Item>icons/civ_sym_viking</Item>
-                    <Item>icons/civ_sym_viking.png</Item>
-					<Item>icons/cult_viking.png</Item>
+					<Item>icons/civ_sym_viking_jec</Item>
+                    <Item>icons/civ_sym_viking_jec.png</Item>
+					<Item>icons/cult_viking_jec.png</Item>
 					<Item>icons/wondericon_jelling_stones.png</Item>
-					<Item>icons/buildicon_stave_church.png</Item>
-					<Item>icons/buildicon_longhouse.png</Item>
-					<Item>icons/buildicon_naust.png</Item>
-					<Item>icons/unitflag_longboat.png</Item>
-					<Item>icons/lsbg_viking_720</Item>
-					<Item>icons/lsbg_viking_1080</Item>
-					<Item>icons/bg-panel-viking.png</Item>
-					<Item>icons/bg-card-viking.png</Item>
+					<Item>icons/buildicon_stave_church_jec.png</Item>
+					<Item>icons/buildicon_longhouse_jec.png</Item>
+					<Item>icons/buildicon_naust_jec.png</Item>
+					<Item>icons/unitflag_longboat_jec.png</Item>
+					<Item>icons/lsbg_viking_jec_720</Item>
+					<Item>icons/lsbg_viking_jec_1080</Item>
+					<Item>icons/bg-panel-viking_jec.png</Item>
+					<Item>icons/bg-card-viking_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Viking.xml</Item>
@@ -192,14 +192,18 @@
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
-					<Item>icons/civ_sym_viking</Item>
-                    <Item>icons/civ_sym_viking.png</Item>
-					<Item>icons/cult_viking.png</Item>
+					<Item>icons/civ_sym_viking_jec</Item>
+                    <Item>icons/civ_sym_viking_jec.png</Item>
+					<Item>icons/cult_viking_jec.png</Item>
 					<Item>icons/wondericon_jelling_stones.png</Item>
-					<Item>icons/buildicon_stave_church.png</Item>
-					<Item>icons/buildicon_longhouse.png</Item>
-					<Item>icons/buildicon_naust.png</Item>
-					<Item>icons/unitflag_longboat.png</Item>
+					<Item>icons/buildicon_stave_church_jec.png</Item>
+					<Item>icons/buildicon_longhouse_jec.png</Item>
+					<Item>icons/buildicon_naust_jec.png</Item>
+					<Item>icons/unitflag_longboat_jec.png</Item>
+					<Item>icons/lsbg_viking_jec_720</Item>
+					<Item>icons/lsbg_viking_jec_1080</Item>
+					<Item>icons/bg-panel-viking_jec.png</Item>
+					<Item>icons/bg-card-viking_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/viking.xml</Item>

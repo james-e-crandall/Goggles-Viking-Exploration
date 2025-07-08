@@ -4,17 +4,17 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_VIKING" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_VIKING_JEC" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING_JEC"/>
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" Name="LOC_CIVILIZATION_VIKING_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_VIKING" UnlockRewardType="CIVILIZATION_VIKING" UnlockRewardKind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING_JEC" Name="LOC_CIVILIZATION_VIKING_JEC_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_VIKING_JEC" UnlockRewardType="CIVILIZATION_VIKING_JEC" UnlockRewardKind="KIND_CIVILIZATION"/>
 
 	</UnlockRewards>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING" ConfigurationValue="CIVILIZATION_VIKING"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VIKING_JEC" ConfigurationValue="CIVILIZATION_VIKING_JEC"/>
 	</UnlockConfigurationValues>
 	<UnlockRequirements>
 

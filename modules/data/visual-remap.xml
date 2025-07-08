@@ -3,17 +3,17 @@
     <VisualRemaps>
         <!-- buildings -->
         <Row>
-            <ID>REMAP_BUILDING_STAVE_CHURCH</ID>
-            <DisplayName>LOC_BUILDING_STAVE_CHURCH_NAME</DisplayName>
+            <ID>REMAP_BUILDING_STAVE_CHURCH_JEC</ID>
+            <DisplayName>LOC_BUILDING_STAVE_CHURCH_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_STAVE_CHURCH</From>
+            <From>BUILDING_STAVE_CHURCH_JEC</From>
             <To>BUILDING_TAVERN</To>
         </Row>
         <Row>
-            <ID>REMAP_BUILDING_LONGHOUSE</ID>
-            <DisplayName>LOC_BUILDING_LONGHOUSE_NAME</DisplayName>
+            <ID>REMAP_BUILDING_LONGHOUSE_JEC</ID>
+            <DisplayName>LOC_BUILDING_LONGHOUSE_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_LONGHOUSE</From>
+            <From>BUILDING_LONGHOUSE_JEC</From>
             <To>BUILDING_TAVERN</To>
         </Row>
         <Row>
@@ -25,24 +25,24 @@
         </Row>
         <!-- units -->
         <Row>
-            <ID>REMAP_UNIT_LONGBOAT</ID>
-            <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
+            <ID>REMAP_UNIT_LONGBOAT_JEC</ID>
+            <DisplayName>LOC_UNIT_LONGBOAT_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LONGBOAT</From>
+            <From>UNIT_LONGBOAT_JEC</From>
             <To>UNIT_GALLEY</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_LONGBOAT_2</ID>
-            <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
+            <ID>REMAP_UNIT_LONGBOAT_JEC_2</ID>
+            <DisplayName>LOC_UNIT_LONGBOAT_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LONGBOAT_2</From>
+            <From>UNIT_LONGBOAT_JEC_2</From>
             <To>UNIT_GALLEY</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_LONGBOAT_3</ID>
-            <DisplayName>LOC_UNIT_LONGBOAT_NAME</DisplayName>
+            <ID>REMAP_UNIT_LONGBOAT_JEC_3</ID>
+            <DisplayName>LOC_UNIT_LONGBOAT_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LONGBOAT_3</From>
+            <From>UNIT_LONGBOAT_JEC_3</From>
             <To>UNIT_GALLEY</To>
         </Row>
     </VisualRemaps>

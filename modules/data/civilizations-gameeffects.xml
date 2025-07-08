@@ -5,7 +5,7 @@
 	<Modifier id="TRAIT_MOD_NAUST_RESTORE_MOVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_RESTORE_UNIT_MOVEMENT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
-				<Argument name="ConstructibleType">BUILDING_NAUST</Argument>
+				<Argument name="ConstructibleType">BUILDING_NAUST_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
 	</Modifier>
@@ -37,17 +37,17 @@
 	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_VIKING" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_VIKING</Argument>
+				<Argument name="TraitType">TRAIT_VIKING_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_EX_VIKING</Argument>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_EX_VIKING_JEC</Argument>
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_VIKING_DESCRIPTION</String>
 	</Modifier>
 	
 	<Modifier id="MOD_CIV_WONDER_PRODUCTION_VIKING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_VIKING</Argument>
+				<Argument name="TraitType">TRAIT_VIKING_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Percent">30</Argument>
