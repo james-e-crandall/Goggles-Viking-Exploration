@@ -16,7 +16,7 @@
 			<Text>Snorri Sturluson</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_EX_VIKING_WIND_AGE_WONDER_DISCOVERY_DESCRIPTION">
-			<Text>Gain 25 [icon:YIELD_PRODUCTION] Production in the capitol every time you discover a Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands.</Text>
+			<Text>Gain 50 [icon:YIELD_CULTURE] Culture every time you discover a Natural Wonder. This is doubled if the Natural Wonder is in Distant Lands.</Text>
 		</Row>
 
 		<!-- Tradtion -->

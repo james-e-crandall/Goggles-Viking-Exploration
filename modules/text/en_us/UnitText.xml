@@ -11,28 +11,21 @@
 			<Text>Longboat 3</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_BASE_DESCRIPTION">
-			<Text>Viking Unique Naval Unit. Can pillage tiles at range.</Text>
+			<Text>Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_DESCRIPTION">
-			<Text>Viking Unique Naval Unit. Can pillage tiles at range.</Text>
+			<Text>Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_2_DESCRIPTION">
-			<Text>Tier 2 Viking Unique Naval Unit. Can pillage tiles at range.</Text>
+			<Text>Tier 2 Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LONGBOAT_3_DESCRIPTION">
-			<Text>Tier 3 Viking Unique Naval Unit. Can pillage tiles at range.</Text>
+			<Text>Tier 3 Viking Unique Naval Unit. Receive additional [icon:YIELD_SCIENCE]Science when pillaging Buildings or Improvements equal to the Yield or Healing gained.</Text>
 		</Row>
 
 		<!-- Abilities -->
-
-		<Row Tag="LOC_MOD_LONGBOAT_NAVIGABLE_RIVER_DESCRIPTION">
-			<Text>Longboat has +10 Combat Strength on Navigable River Tiles</Text>
-		</Row>
-		<Row Tag="LOC_MOD_LONGBOAT_LAKE_DESCRIPTION">
-			<Text>Longboat has +10 Combat Strength on Lake Tiles</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_MOD_LONGBOAT_COMBAT_STRENGTH_PREVIEW">
-			<Text>+{1_Amount} Navigable River or Lake</Text>
+		<Row Tag="LOC_MOD_LONGBOAT_ADVANCED_PILLAGE_DESCRIPTION">
+			<Text>Longboat Can pillage tiles at range.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_LONGBOAT_MOVEMENT_DESCRIPTION">
 			<Text>Longboats have +1 Movement on Costal, Navigable River, and Lake Tiles</Text>

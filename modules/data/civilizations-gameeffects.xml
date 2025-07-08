@@ -10,14 +10,28 @@
 		</SubjectRequirements>
 	</Modifier>
 
-	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_BUILDING_GOLD" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_BUILDING_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">50</Argument>
-		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
+	<Modifier id="MOD_FORNALDARSAGA_PROMOTION_ARMY_LOOTING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_ARMY_LOOTING</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_LOGISTICS</Argument>
+		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="MOD_FORNALDARSAGA_PRODUCTION_PILLAGE_IMPROVEMENT_GOLD" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">50</Argument>
-		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
+
+	<Modifier id="MOD_FORNALDARSAGA_PROMOTION_FLEET_LOOTING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_FLEET_LOOTING</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_FLEET_LOGISTICS</Argument>
+		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION</String>
 	</Modifier>
+
 
 	<!-- Civ Standard -->
 	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_VIKING" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">

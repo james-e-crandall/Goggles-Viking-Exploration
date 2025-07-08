@@ -3,8 +3,8 @@
 
 	<Modifier id="MOD_WIND_AGE_MOD_WONDER_DISCOVERY" collection="COLLECTION_OWNER" effect="TRIGGER_PLAYER_GRANT_YIELD_ON_FIND_WONDER">
 		<Argument name="YieldType">YIELD_CULTURE</Argument>
-		<Argument name="Amount">25</Argument>
-		<Argument name="DistantLandBonus">25</Argument>
+		<Argument name="Amount">50</Argument>
+		<Argument name="DistantLandBonus">50</Argument>
 		<Argument name="Tooltip">LOC_MOD_WIND_AGE_MOD_WONDER_DISCOVERY_NAME</Argument>
 		<String context="Description">LOC_CIVIC_EX_VIKING_WIND_AGE_WONDER_DISCOVERY_DESCRIPTION</String>
 	</Modifier>
