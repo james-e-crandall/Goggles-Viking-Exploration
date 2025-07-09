@@ -30,6 +30,7 @@
 		<Row ListType="Viking Constructibles Biases" Item="BUILDING_LONGHOUSE_JEC" Value="200" />
 		<Row ListType="Viking Constructibles Biases" Item="BUILDING_NAUST_JEC" Value="200" />
 		<Row ListType="Viking Constructibles Biases" Item="BUILDING_FISHING_QUAY" Value="200" />
+    	<Row ListType="Viking Constructibles Biases" Item="WONDER_JELLING_STONES" Value="50"/>	
 		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_JEC" Value="50"/>
 		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_JEC_2" Value="50"/>
 		<Row ListType="Viking Unit Biases" Item="UNIT_LONGBOAT_JEC_3" Value="50"/>

@@ -87,4 +87,9 @@
 		<Row UnitType="UNIT_LONGBOAT_JEC_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_LONGBOAT_JEC_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 	</Unit_Advisories>
+	<AIUnitPrioritizedActions>
+		<Row UnitType="UNIT_LONGBOAT_JEC" OperationType="UNITOPERATION_PILLAGE" />
+		<Row UnitType="UNIT_LONGBOAT_JEC_2" OperationType="UNITOPERATION_PILLAGE" />
+		<Row UnitType="UNIT_LONGBOAT_JEC_3" OperationType="UNITOPERATION_PILLAGE" />
+	</AIUnitPrioritizedActions>
 </Database>

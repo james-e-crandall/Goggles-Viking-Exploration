@@ -4,8 +4,6 @@
 		<!-- Wonders -->
 		<Row Type="WONDER_JELLING_STONES" Kind="KIND_CONSTRUCTIBLE"/>
 		<Row Type="ABILITY_JELLING_STONES" Kind="KIND_ABILITY"/>
-		<!-- <Row Type="ABILITY_JELLING_STONES_GOLDEN_AGE" Kind="KIND_ABILITY"/> -->
-		
     </Types>
 	<Traits>
 	</Traits>
