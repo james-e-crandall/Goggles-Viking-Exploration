@@ -109,7 +109,7 @@
 					<Item>icons/civ_sym_viking_jec</Item>
                     <Item>icons/civ_sym_viking_jec.png</Item>
 					<Item>icons/cult_viking_jec.png</Item>
-					<Item>icons/wondericon_jelling_stones.png</Item>
+					<Item>icons/wondericon_jelling_stones_jec.png</Item>
 					<Item>icons/buildicon_stave_church_jec.png</Item>
 					<Item>icons/buildicon_longhouse_jec.png</Item>
 					<Item>icons/buildicon_naust_jec.png</Item>
@@ -195,7 +195,7 @@
 					<Item>icons/civ_sym_viking_jec</Item>
                     <Item>icons/civ_sym_viking_jec.png</Item>
 					<Item>icons/cult_viking_jec.png</Item>
-					<Item>icons/wondericon_jelling_stones.png</Item>
+					<Item>icons/wondericon_jelling_stones_jec.png</Item>
 					<Item>icons/buildicon_stave_church_jec.png</Item>
 					<Item>icons/buildicon_longhouse_jec.png</Item>
 					<Item>icons/buildicon_naust_jec.png</Item>
@@ -206,7 +206,7 @@
 					<Item>icons/bg-card-viking_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/viking.xml</Item>
+                    <Item>data/icons/Viking.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>

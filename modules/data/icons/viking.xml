@@ -21,7 +21,7 @@
 		<Row>
 			<ID>CIVILIZATION_VIKING_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_viking/iconslsbg_viking_jec_720</Path>
+			<Path>fs://game/goggles_civ_viking/icons/lsbg_viking_jec_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <!-- Culture -->
