@@ -62,9 +62,9 @@
 	<AgeConstructibleDefaultMaintenances>
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldType="YIELD_HAPPINESS" YieldChange="4"/>
+		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
 		<Row ConstructibleType="BUILDING_LONGHOUSE_JEC" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row ConstructibleType="BUILDING_NAUST_JEC" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_NAUST_JEC" YieldType="YIELD_GOLD" YieldChange="1"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<Row ConstructibleType="BUILDING_STAVE_CHURCH_JEC" YieldType="YIELD_GOLD" Amount="3"/>
@@ -113,12 +113,21 @@
 	</UniqueQuarters>
 	<GameModifiers>
 		<Row ModifierId="MOD_QUARTER_TRELLEBORG_RIVER_GOLD"/>
+		<Row ModifierId="MOD_QUARTER_TRELLEBORG_LONGHOUSE_CULTURE_CITY"/>
+		<Row ModifierId="MOD_QUARTER_TRELLEBORG_STAVE_CHURCH_HAPPINESS_CITY"/>
 		<Row ModifierId="MOD_QUARTER_LEIDANG_COAST_GOLD"/>
+		<Row ModifierId="MOD_QUARTER_LEIDANG_NAUST_GOLD"/>
+		<Row ModifierId="MOD_QUARTER_LEIDANG_FISHING_QUAY_FOOD"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
 		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_RIVER_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_LONGHOUSE_CULTURE_CITY"/>
+		<Row UniqueQuarterType="QUARTER_TRELLEBORG" ModifierId="MOD_QUARTER_TRELLEBORG_STAVE_CHURCH_HAPPINESS_CITY"/>
+
 		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_COAST_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_NAUST_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_LEIDANG" ModifierId="MOD_QUARTER_LEIDANG_FISHING_QUAY_FOOD"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<Row ConstructibleType="BUILDING_NAUST_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>

@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN -->
-	<Modifier id="MOD_QUARTER_TRELLEBORG_RIVER_GOLD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+	<Modifier id="MOD_QUARTER_TRELLEBORG_RIVER_GOLD_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_TRELLEBORG</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_QUARTER_TRELLEBORG_RIVER_GOLD</Argument>
+		<Argument name="ModifierId">ATTACH_MOD_QUARTER_TRELLEBORG_RIVER_GOLD_TOWN</Argument>
 	</Modifier>
 
-	<Modifier id="ATTACH_MOD_QUARTER_TRELLEBORG_RIVER_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT" run-once="false" permanent="true">
+	<Modifier id="ATTACH_MOD_QUARTER_TRELLEBORG_RIVER_GOLD_TOWN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT" run-once="false" permanent="true">
 		<Argument name="Adjacency_YieldChange">RiverGold</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Divisor">1</Argument>
 	</Modifier>
+
+	<Modifier id="MOD_QUARTER_TRELLEBORG_LONGHOUSE_CULTURE_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_TRELLEBORG</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_LONGHOUSE_JEC</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_QUARTER_TRELLEBORG_STAVE_CHURCH_HAPPINESS_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_TRELLEBORG</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_STAVE_CHURCH_JEC</Argument>
+	</Modifier>
+
 
 	<Modifier id="MOD_QUARTER_LEIDANG_COAST_GOLD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_LEIDANG</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">ATTACH_MOD_QUARTER_LEIDANG_COAST_GOLD</Argument>
 	</Modifier>
@@ -30,5 +56,31 @@
 		<Argument name="Amount">1</Argument>
 		<Argument name="Divisor">1</Argument>
 	</Modifier>
+
+
+	<Modifier id="MOD_QUARTER_LEIDANG_NAUST_GOLD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_LEIDANG</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_NAUST_JEC</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_QUARTER_LEIDANG_FISHING_QUAY_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_LEIDANG</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_FISHING_QUAY</Argument>
+	</Modifier>
+
 
 </GameEffects>
