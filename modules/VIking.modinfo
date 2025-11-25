@@ -120,7 +120,7 @@
 					<Item>icons/bg-card-viking_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/Viking.xml</Item>
+                    <Item>data/icons/viking.xml</Item>
                 </UpdateIcons>
                 <ScenarioScripts>
                 </ScenarioScripts>
@@ -154,6 +154,7 @@
                 </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
@@ -204,9 +205,10 @@
 					<Item>icons/lsbg_viking_jec_1080</Item>
 					<Item>icons/bg-panel-viking_jec.png</Item>
 					<Item>icons/bg-card-viking_jec.png</Item>
+
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/Viking.xml</Item>
+                    <Item>data/icons/viking.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>
