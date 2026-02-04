@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_VIKING_JEC_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
+            <Text>Nothing ventured, nothing gained.</Text>
+        </Row>
+        <Row Tag="LOC_VIKING_JEC_COMPLETED_PROGRESSION_TREEA_COMPLETION">
+            <Text>Mind you don’t agree today to what you’ll regret tomorrow.</Text>
+        </Row>
+        <Row Tag="LOC_VIKING_JEC_COMPLETED_PROGRESSION_TREEB_NAME">
+            <Text>Viking pride fuels its economy.</Text>
+        </Row>
+        <Row Tag="LOC_VIKING_JEC_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_VIKING_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
+            <Text>Viking pride lies in its growth.</Text>
+        </Row>
+        <Row Tag="LOC_VIKING_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+
+    </EnglishText>
+</Database>

@@ -104,6 +104,7 @@
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
 					<Item>icons/civ_sym_viking_jec</Item>
@@ -174,6 +175,8 @@
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/constructibles-exploration.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
